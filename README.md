@@ -1,6 +1,12 @@
-### Table of content
+# Table of content
 
-- [Categories](#categories)
+<details>
+<summary>[Categories](#categories)</summary>
+<p>
+
+</p>
+</details>
+
 - [CTF events](#ctf-events)
 
 <!-- <details>
@@ -12,7 +18,7 @@
 
 ---
 
-## Categories
+# Categories
 
 <details>
 <summary>Buffer Overflow</summary>
@@ -64,7 +70,7 @@
 </details>
 
 
-## CTF events
+# CTF events
 
 <details>
 <summary>vsCTF 2022</summary>
