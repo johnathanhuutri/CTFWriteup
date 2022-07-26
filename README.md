@@ -34,7 +34,7 @@
 # Categories
 
 <details id="buffer-overflow">
-<summary>Buffer Overflow</summary>
+<summary>Buffer Overflow (<a href="#table-of-content">Table of content</a>)</summary>
 <p>
 
 </p>
