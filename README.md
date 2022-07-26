@@ -7,7 +7,12 @@
 </p>
 </details> -->
 
-- Categories
+<details>
+<summary><h2>Categories</h2></summary>
+<p>
+
+</p>
+</details>
 
 
 <details>
