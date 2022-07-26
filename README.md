@@ -14,6 +14,56 @@
 
 ## Categories
 
+<details>
+<summary>Buffer Overflow</summary>
+<p>
+
+</p>
+</details>
+
+<details>
+<summary>Format String</summary>
+<p>
+
+</p>
+</details>
+
+<details>
+<summary>ROP</summary>
+<p>
+
+</p>
+</details>
+
+<details>
+<summary>Sig-ROP</summary>
+<p>
+
+</p>
+</details>
+
+<details>
+<summary>Blind-ROP</summary>
+<p>
+
+</p>
+</details>
+
+<details>
+<summary>Off-by-one</summary>
+<p>
+
+</p>
+</details>
+
+<details>
+<summary>Out-of-bound</summary>
+<p>
+
+</p>
+</details>
+
+
 ## CTF events
 
 <details>
