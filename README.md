@@ -1,5 +1,8 @@
 ### Table of content
 
+- Categories
+- CTF events
+
 <!-- <details>
 <summary>By type</summary>
 <p>
@@ -9,17 +12,10 @@
 
 ---
 
-<details>
-<summary><h2>Categories</h2></summary>
-<p>
 
-</p>
-</details>
+### Categories
 
-
-<details>
-<summary><h2>CTF events</h2></summary>
-<p>
+### CTF events
 
 <details>
 <summary>vsCTF 2022</summary>
