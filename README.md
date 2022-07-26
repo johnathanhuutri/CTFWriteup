@@ -7,6 +7,8 @@
 </p>
 </details> -->
 
+---
+
 <details>
 <summary><h2>Categories</h2></summary>
 <p>
@@ -18,13 +20,6 @@
 <details>
 <summary><h2>CTF events</h2></summary>
 <p>
-
-<!-- <details>
-<summary>By type</summary>
-<p>
-
-</p>
-</details> -->
 
 <details>
 <summary>vsCTF 2022</summary>
