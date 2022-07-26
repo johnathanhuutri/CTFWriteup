@@ -1,7 +1,7 @@
 ### Table of content
 
-- Categories
-- CTF events
+- [Categories](#categories)
+- [CTF events](#ctf-events)
 
 <!-- <details>
 <summary>By type</summary>
@@ -11,7 +11,6 @@
 </details> -->
 
 ---
-
 
 ## Categories
 
