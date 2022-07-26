@@ -24,6 +24,7 @@
 
 | CTF Name | Challenge | Other bug/technique |
 | :---: | :---: | :---: |
+| [KCSC - Entrance exam](#kcsc-entrance-exam) | get OVER InT |  |
 
 </p>
 </details>
@@ -34,7 +35,11 @@
 
 | CTF Name | Challenge | Other bug/technique |
 | :---: | :---: | :---: |
-| [pwn.tn](#pwnable.tw) | Start | `Shellcode` |
+| [MOCSCTF 2022](#mocsctf-2022) | calc | `Out-of-bound` |
+| [KCSC - Entrance exam](#kcsc-entrance-exam) | Make Me Crash |  |
+| [KCSC - Entrance exam](#kcsc-entrance-exam) | ret2win |  |
+| [KCSC - Entrance exam](#kcsc-entrance-exam) | bof1 |  |
+| [pwnable.tw](#pwnable.tw) | Start | `Shellcode` |
 | [pwn.tn](#pwn.tn) | f_two | `Format String` `Integer Overflow` |
 
 </p>
@@ -46,6 +51,8 @@
 
 | CTF Name | Challenge | Other bug/technique |
 | :---: | :---: | :---: |
+| [Wanna Game 2022](#wanna-game-2022) | Letwarnup |  |
+| [KCSC - Entrance exam](#kcsc-entrance-exam) | Chall |  |
 | [pwn.tn](#pwn.tn) | f_one |  |
 
 </p>
@@ -89,6 +96,7 @@
 
 | CTF Name | Challenge | Other bug/technique |
 | :---: | :---: | :---: |
+| [Wanna Game 2022](#wanna-game-2022) | Feedback |  |
 | [ISITDTU 2019](#isitdtu-2019) | tokenizer |  |
 
 </p>
@@ -100,6 +108,7 @@
 
 | CTF Name | Challenge | Other bug/technique |
 | :---: | :---: | :---: |
+| [KCSC - Entrance exam](#kcsc-entrance-exam) | ArrayUnderFl0w |  |
 
 </p>
 </details>
@@ -110,7 +119,8 @@
 
 | CTF Name | Challenge | Other bug/technique |
 | :---: | :---: | :---: |
-| [DiceCTF 2022](#dicectf-2022) | dataeater |  |
+| [TSJ CTF 2022](#tsj-ctf-2022) | bacteria | `Buffer Overflow` |
+| [DiceCTF 2022](#dicectf-2022) | dataeater | `Format String` |
 
 </p>
 </details>
@@ -132,8 +142,20 @@
 
 | CTF Name | Challenge | Other bug/technique |
 | :---: | :---: | :---: |
+| [KCSC - Entrance exam](#kcsc-entrance-exam) | guessMe | `Specific Seed Rand` |
 | [SVATTT 2019](#svattt-2019) | three_o_three |  |
 | [pwnable.tw](#pwnable.tw) | calc |  |
+
+</p>
+</details>
+
+<details id="heap-overflow">
+<summary>Heap Overflow</summary>
+<p>
+
+| CTF Name | Challenge | Other bug/technique |
+| :---: | :---: | :---: |
+| [MOCSCTF 2022](#mocsctf-2022) | C@ge |  |
 
 </p>
 </details>
@@ -144,6 +166,8 @@
 
 | CTF Name | Challenge | Other bug/technique |
 | :---: | :---: | :---: |
+| [MOCSCTF 2022](#mocsctf-2022) | orange | `House of Orange` |
+| [Wanna Game 2022](#wanna-game-2022) | note | `Use After Free` |
 | [ISITDTU 2019](#isitdtu-2019) | iz_heap_lv1 |  |
 | [DefCamp CTF 21-22 Online](#defcamp-ctf-21-22-online) | cache | `Use After Free` `Double Free` |
 
@@ -155,7 +179,7 @@
 
 ### 2022
 
-<details>
+<details id="imaginaryctf-2022">
 <summary>ImaginaryCTF 2022</summary>
 <p>
 
@@ -169,7 +193,7 @@
 </p>
 </details>
 
-<details>
+<details id="vsctf-2022">
 <summary>vsCTF 2022</summary>
 <p>
 
@@ -183,7 +207,7 @@
 </p>
 </details>
 
-<details>
+<details id="google-ctf-2022">
 <summary>Google CTF 2022</summary>
 <p>
 
@@ -194,7 +218,7 @@
 </p>
 </details>
 
-<details>
+<details id="whitehat-play-11">
 <summary>WhiteHat Play 11</summary>
 <p>
 
@@ -208,7 +232,7 @@
 </p>
 </details>
 
-<details>
+<details id="kmactf-2022">
 <summary>KMACTF 2022</summary>
 <p>
 
@@ -221,7 +245,7 @@
 </p>
 </details>
 
-<details>
+<details id="hcmus-ctf-2022">
 <summary>HCMUS CTF 2022</summary>
 <p>
 
@@ -240,7 +264,7 @@
 </p>
 </details>
 
-<details>
+<details id="kcsc-ctf-2022">
 <summary>KCSC CTF 2022</summary>
 <p>
 
@@ -257,7 +281,7 @@
 </p>
 </details>
 
-<details>
+<details id="wolverine-security-conference-ctf">
 <summary>Wolverine Security Conference/CTF</summary>
 <p>
 
@@ -268,7 +292,7 @@
 </p>
 </details>
 
-<details>
+<details id="zer0pts-ctf-2022">
 <summary>zer0pts CTF 2022</summary>
 <p>
 
@@ -280,7 +304,7 @@
 </p>
 </details>
 
-<details>
+<details id="foobar-ctf-2022">
 <summary>FooBar CTF 2022</summary>
 <p>
 
@@ -291,7 +315,7 @@
 </p>
 </details>
 
-<details>
+<details id="pragyan-ctf-2022">
 <summary>Pragyan CTF 2022</summary>
 <p>
 
@@ -306,7 +330,7 @@
 </p>
 </details>
 
-<details>
+<details id="tsj-ctf-2022">
 <summary>TSJ CTF 2022</summary>
 <p>
 
@@ -317,7 +341,7 @@
 </p>
 </details>
 
-<details>
+<details id="mocsctf-2022">
 <summary>MOCSCTF 2022</summary>
 <p>
 
@@ -330,7 +354,7 @@
 </p>
 </details>
 
-<details>
+<details id="wanna-game-2022">
 <summary>Wanna Game 2022</summary>
 <p>
 
@@ -343,7 +367,7 @@
 </p>
 </details>
 
-<details>
+<details id="kcsc-entrance-exam">
 <summary>KCSC - Entrance exam</summary>
 <p>
 
@@ -435,8 +459,8 @@
 
 | Name | Type | File Type | Technique |
 | :---: | :---: | :---: | :---: |
-| [f_one](https://github.com/nhtri2003gmail/CTFNote/tree/master/writeup/online/pwn.tn/f_one) | pwn | c (64 bit) | `Format String` `Overwrite GOT` |
-| [f_two](https://github.com/nhtri2003gmail/CTFNote/tree/master/writeup/online/pwn.tn/f_two) | pwn | c (32 bit) | `Buffer Overflow` `Integer Overflow` `Format String` |
+| [f_one](online/pwn.tn/f_one) | pwn | c (64 bit) | `Format String` `Overwrite GOT` |
+| [f_two](online/pwn.tn/f_two) | pwn | c (32 bit) | `Buffer Overflow` `Integer Overflow` `Format String` |
 
 </p>
 </details>
