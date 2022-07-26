@@ -466,6 +466,3 @@
 
 </p>
 </details>
-
-</p>
-</details>
