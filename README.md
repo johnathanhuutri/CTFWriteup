@@ -1,28 +1,9 @@
-# Table of content
-
-<details>
-<summary>Categories</summary>
-<p>
-
-- [Buffer Overflow](#buffer-overflow)
-- [Format String](#format-string)
-- [ROP](#rop)
-- [Sig-ROP](#sig-rop)
-- [Blind-ROP](#blind-rop)
-- [Off-by-one](#off-by-one)
-- [Out-of-bound](#out-of-bound)
-
-</p>
-</details>
-
 <!-- <details>
 <summary>By type</summary>
 <p>
 
 </p>
 </details> -->
-
----
 
 # Categories
 
