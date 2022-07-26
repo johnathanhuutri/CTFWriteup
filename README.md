@@ -8,7 +8,7 @@
 # Categories
 
 <details id="shellcode">
-<summary>Shellcode (<a href="#table-of-content">Table of content</a>)</summary>
+<summary>Shellcode</summary>
 <p>
 
 | CTF Name | Challenge | Other bug |
@@ -19,7 +19,7 @@
 </details>
 
 <details id="integer-overflow">
-<summary>Integer Overflow (<a href="#table-of-content">Table of content</a>)</summary>
+<summary>Integer Overflow</summary>
 <p>
 
 | CTF Name | Challenge | Other bug/technique |
@@ -29,7 +29,7 @@
 </details>
 
 <details id="buffer-overflow">
-<summary>Buffer Overflow (<a href="#table-of-content">Table of content</a>)</summary>
+<summary>Buffer Overflow</summary>
 <p>
 
 | CTF Name | Challenge | Other bug/technique |
@@ -41,7 +41,7 @@
 </details>
 
 <details id="format-string">
-<summary>Format String (<a href="#table-of-content">Table of content</a>)</summary>
+<summary>Format String</summary>
 <p>
 
 | CTF Name | Challenge | Other bug/technique |
@@ -52,7 +52,7 @@
 </details>
 
 <details id="rop">
-<summary>ROP (<a href="#table-of-content">Table of content</a>)</summary>
+<summary>ROP</summary>
 <p>
 
 | CTF Name | Challenge | Other bug/technique |
@@ -63,7 +63,7 @@
 </details>
 
 <details id="sig-rop">
-<summary>Sig-ROP (<a href="#table-of-content">Table of content</a>)</summary>
+<summary>Sig-ROP</summary>
 <p>
 
 | CTF Name | Challenge | Other bug/technique |
@@ -73,7 +73,7 @@
 </details>
 
 <details id="blind-rop">
-<summary>Blind-ROP (<a href="#table-of-content">Table of content</a>)</summary>
+<summary>Blind-ROP</summary>
 <p>
 
 | CTF Name | Challenge | Other bug/technique |
@@ -84,7 +84,7 @@
 </details>
 
 <details id="off-by-one">
-<summary>Off-by-one (<a href="#table-of-content">Table of content</a>)</summary>
+<summary>Off-by-one</summary>
 <p>
 
 | CTF Name | Challenge | Other bug/technique |
@@ -95,7 +95,7 @@
 </details>
 
 <details id="out-of-bound">
-<summary>Out-of-bound (<a href="#table-of-content">Table of content</a>)</summary>
+<summary>Out-of-bound</summary>
 <p>
 
 | CTF Name | Challenge | Other bug/technique |
@@ -105,7 +105,7 @@
 </details>
 
 <details id="ret2dlresolve">
-<summary>ret2dlresolve (<a href="#table-of-content">Table of content</a>)</summary>
+<summary>ret2dlresolve</summary>
 <p>
 
 | CTF Name | Challenge | Other bug/technique |
@@ -116,7 +116,7 @@
 </details>
 
 <details id="attack-hook">
-<summary>Attack hook (<a href="#table-of-content">Table of content</a>)</summary>
+<summary>Attack hook</summary>
 <p>
 
 | CTF Name | Challenge | Other bug/technique |
@@ -127,7 +127,7 @@
 </details>
 
 <details id="other">
-<summary>Other (<a href="#table-of-content">Table of content</a>)</summary>
+<summary>Other</summary>
 <p>
 
 | CTF Name | Challenge | Other bug/technique |
@@ -139,7 +139,7 @@
 </details>
 
 <details id="heap-tcache-attack">
-<summary>Heap - Tcache attack (<a href="#table-of-content">Table of content</a>)</summary>
+<summary>Heap - Tcache attack</summary>
 <p>
 
 | CTF Name | Challenge | Other bug/technique |
