@@ -15,13 +15,6 @@
 </p>
 </details>
 
-<details>
-<summary>CTF events</summary>
-<p>
-
-</p>
-</details>
-
 <!-- <details>
 <summary>By type</summary>
 <p>
