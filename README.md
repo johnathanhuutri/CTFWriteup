@@ -13,9 +13,9 @@
 ---
 
 
-### Categories
+## Categories
 
-### CTF events
+## CTF events
 
 <details>
 <summary>vsCTF 2022</summary>
