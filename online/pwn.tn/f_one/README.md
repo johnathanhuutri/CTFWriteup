@@ -2,7 +2,7 @@
 
 Origin challenge link: https://pwn.tn/challenges
 
-You can also download the challenge at my repo: [f_one.zip](https://github.com/nhtri2003gmail/writeup-pwn.tn-f_one/blob/master/f_one.zip)
+You can also download the challenge at my repo: [f_one.zip](f_one.zip)
 
 The f_one.zip file will include 2 following file:
 
@@ -26,9 +26,9 @@ In this challenge, I will try not to use ghidra to know how program work. Instea
 
 There are 2 function in this program: main() and vuln()
 
-![main](https://raw.githubusercontent.com/nhtri2003gmail/writeup-pwn.tn-f_one/master/images/main.png)
+![main](images/main.png)
 
-![vuln](https://raw.githubusercontent.com/nhtri2003gmail/writeup-pwn.tn-f_one/master/images/vuln.png)
+![vuln](images/vuln.png)
 
 main() seems not interesting but vuln() maybe (because its name is vuln :3)
 
@@ -36,15 +36,15 @@ Let's create a breakpoint in vuln() and run all of sub-function:
 
 At puts@plt:
 
-![vuln_puts](https://raw.githubusercontent.com/nhtri2003gmail/writeup-pwn.tn-f_one/master/images/vuln_puts.png)
+![vuln_puts](images/vuln_puts.png)
 
 At fgets@plt:
 
-![vuln_fget](https://raw.githubusercontent.com/nhtri2003gmail/writeup-pwn.tn-f_one/master/images/vuln_fgets.png)
+![vuln_fget](images/vuln_fgets.png)
 
 At printf@plt:
 
-![vuln_printf](https://raw.githubusercontent.com/nhtri2003gmail/writeup-pwn.tn-f_one/master/images/vuln_printf.png)
+![vuln_printf](images/vuln_printf.png)
 
 Oh wait! Can you see there is something wrong with printf? In C code, the command will be like this `printf(input)` --> Format string!
 
@@ -94,13 +94,13 @@ After a while on idea 1 but unsucceed, I tried with second idea: using one_gadge
 
 Let's find where is our input with %p
 
-![input_fmtstr](https://raw.githubusercontent.com/nhtri2003gmail/writeup-pwn.tn-f_one/master/images/input_fmtstr.png)
+![input_fmtstr](images/input_fmtstr.png)
 
 Our input is at `%6$p`.
 
 But wait! Assume I replace `AAAABBBB` with some 64-bit address, it will have null bytes which will cause printf stop at null byte. Because of that, I will place the `AAAABBBB` at the end of payload. 
 
-![input_fmtstr_stack_smashing](https://raw.githubusercontent.com/nhtri2003gmail/writeup-pwn.tn-f_one/master/images/input_fmtstr_stack_smashing.png)
+![input_fmtstr_stack_smashing](images/input_fmtstr_stack_smashing.png)
 
 And we got `stack smashing detected`. You can see that `0x4242424241414141` is at %12$p and a '\n' byte has overwrite a byte in stack canary. That's why we got `stack smashing detected`.
 
@@ -120,13 +120,13 @@ Payload1: ```%c%c%c%c%c%c%c%c%c%c%1709c%hn%17$pPPPPPPPPPPPPPP\xa0\x0b`\x00\x00\x
 
 In gdb, it leak the address out!
 
-![payload1_gdb](https://raw.githubusercontent.com/nhtri2003gmail/writeup-pwn.tn-f_one/master/images/payload1_gdb.png)
+![payload1_gdb](images/payload1_gdb.png)
 
-![payload1_gdb_leak_address](https://raw.githubusercontent.com/nhtri2003gmail/writeup-pwn.tn-f_one/master/images/payload1_gdb_leak_address.png)
+![payload1_gdb_leak_address](images/payload1_gdb_leak_address.png)
 
 And outside gdb, address is leaked too!
 
-![payload1_outside_gdb](https://raw.githubusercontent.com/nhtri2003gmail/writeup-pwn.tn-f_one/master/images/payload1_outside_gdb.png)
+![payload1_outside_gdb](images/payload1_outside_gdb.png)
 
 That's great for step 1. Let's move on step 2.
 
@@ -134,7 +134,7 @@ That's great for step 1. Let's move on step 2.
 
 Now, let's find a one_gadget first:
 
-![one_gadget](https://raw.githubusercontent.com/nhtri2003gmail/writeup-pwn.tn-f_one/master/images/one_gadget.png)
+![one_gadget](images/one_gadget.png)
 
 We can see that the second one_gadget and the third one only require a 8-byte null of stack, they are not dependent as the first one.
 
@@ -144,11 +144,11 @@ Let's switch back to gdb. To make sure there is a 8-byte null on stack, we won't
 
 So we will overwrite printf instead. With gdb, we get the address and value of printf@got:
 
-![printf_got](https://raw.githubusercontent.com/nhtri2003gmail/writeup-pwn.tn-f_one/master/images/printf_got.png)
+![printf_got](images/printf_got.png)
 
 Still in gdb, we can calculate the address of our second one_gadget and see it flow:
 
-![cal_one_gadget](https://raw.githubusercontent.com/nhtri2003gmail/writeup-pwn.tn-f_one/master/images/cal_one_gadget.png)
+![cal_one_gadget](images/cal_one_gadget.png)
 
 You can get the offset of libc_start_main_ret `0x021b97` on https://libc.blukat.me
 
@@ -172,11 +172,11 @@ Payload2: ```%c%c%c%c%c%c%c%c%c%185c%hhn%41585c%hnPPP\xa8\x0b`\x00\x00\x00\x00\x
 
 Before printf:
 
-![printf_got](https://raw.githubusercontent.com/nhtri2003gmail/writeup-pwn.tn-f_one/master/images/printf_got.png)
+![printf_got](images/printf_got.png)
 
 After overwrite printf@got:
 
-![after_printf_got](https://raw.githubusercontent.com/nhtri2003gmail/writeup-pwn.tn-f_one/master/images/after_printf_got.png)
+![after_printf_got](images/after_printf_got.png)
 
 - Step 3: input null bytes payload
 
@@ -186,15 +186,15 @@ Payload3: `"\x00"*0x50`
 
 Before input payload3 after step 2:
 
-![before_fgets](https://raw.githubusercontent.com/nhtri2003gmail/writeup-pwn.tn-f_one/master/images/before_fgets.png)
+![before_fgets](images/before_fgets.png)
 
 After input payload3:
 
-![after_fgets](https://raw.githubusercontent.com/nhtri2003gmail/writeup-pwn.tn-f_one/master/images/after_fgets.png)
+![after_fgets](images/after_fgets.png)
 
 When execute printf, we create a shell!
 
-![printf_spawn_shell](https://raw.githubusercontent.com/nhtri2003gmail/writeup-pwn.tn-f_one/master/images/printf_spawn_shell.png)
+![printf_spawn_shell](images/printf_spawn_shell.png)
 
 # 4. Get flag
 
@@ -204,6 +204,6 @@ This is my script for dynamic address:
 
 - [solve_2.py](solve_2.py)
 
-![flag_solve_1.png](https://raw.githubusercontent.com/nhtri2003gmail/writeup-pwn.tn-f_one/master/images/flag_solve_1.png)
+![flag_solve_1.png](images/flag_solve_1.png)
 
-![flag_solve_2.png](https://raw.githubusercontent.com/nhtri2003gmail/writeup-pwn.tn-f_one/master/images/flag_solve_2.png)
+![flag_solve_2.png](images/flag_solve_2.png)
