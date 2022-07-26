@@ -11,7 +11,7 @@
 
 
 <details>
-<summary>CTF events</summary>
+<summary><h2>CTF events</h2></summary>
 <p>
 
 <!-- <details>
