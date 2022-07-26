@@ -22,7 +22,7 @@
 <summary>Integer Overflow (<a href="#table-of-content">Table of content</a>)</summary>
 <p>
 
-| CTF Name | Challenge | Other bug |
+| CTF Name | Challenge | Other bug/technique |
 | :---: | :---: | :---: |
 
 </p>
@@ -32,7 +32,7 @@
 <summary>Buffer Overflow (<a href="#table-of-content">Table of content</a>)</summary>
 <p>
 
-| CTF Name | Challenge | Other bug |
+| CTF Name | Challenge | Other bug/technique |
 | :---: | :---: | :---: |
 | [pwn.tn](#pwnable.tw) | Start | `Shellcode` |
 | [pwn.tn](#pwn.tn) | f_two | `Format String` `Integer Overflow` |
@@ -44,7 +44,7 @@
 <summary>Format String (<a href="#table-of-content">Table of content</a>)</summary>
 <p>
 
-| CTF Name | Challenge | Other bug |
+| CTF Name | Challenge | Other bug/technique |
 | :---: | :---: | :---: |
 | [pwn.tn](#pwn.tn) | f_one |  |
 
@@ -55,8 +55,9 @@
 <summary>ROP (<a href="#table-of-content">Table of content</a>)</summary>
 <p>
 
-| CTF Name | Challenge | Other bug |
+| CTF Name | Challenge | Other bug/technique |
 | :---: | :---: | :---: |
+| [DiceCTF 2022](#dicectf-2022) | baby-rop | `Use After Free` |
 
 </p>
 </details>
@@ -65,7 +66,7 @@
 <summary>Sig-ROP (<a href="#table-of-content">Table of content</a>)</summary>
 <p>
 
-| CTF Name | Challenge | Other bug |
+| CTF Name | Challenge | Other bug/technique |
 | :---: | :---: | :---: |
 
 </p>
@@ -75,8 +76,9 @@
 <summary>Blind-ROP (<a href="#table-of-content">Table of content</a>)</summary>
 <p>
 
-| CTF Name | Challenge | Other bug |
+| CTF Name | Challenge | Other bug/technique |
 | :---: | :---: | :---: |
+| [DefCamp CTF 21-22 Online](#defcamp-ctf-21-22-online) | blindsight | `Buffer Overflow` |
 
 </p>
 </details>
@@ -85,8 +87,9 @@
 <summary>Off-by-one (<a href="#table-of-content">Table of content</a>)</summary>
 <p>
 
-| CTF Name | Challenge | Other bug |
+| CTF Name | Challenge | Other bug/technique |
 | :---: | :---: | :---: |
+| [ISITDTU 2019](#isitdtu-2019) | tokenizer |  |
 
 </p>
 </details>
@@ -95,7 +98,7 @@
 <summary>Out-of-bound (<a href="#table-of-content">Table of content</a>)</summary>
 <p>
 
-| CTF Name | Challenge | Other bug |
+| CTF Name | Challenge | Other bug/technique |
 | :---: | :---: | :---: |
 
 </p>
@@ -105,19 +108,20 @@
 <summary>ret2dlresolve (<a href="#table-of-content">Table of content</a>)</summary>
 <p>
 
-| CTF Name | Challenge | Other bug |
+| CTF Name | Challenge | Other bug/technique |
 | :---: | :---: | :---: |
+| [DiceCTF 2022](#dicectf-2022) | dataeater |  |
 
 </p>
 </details>
 
-<details id="ret2dlresolve">
+<details id="attack-hook">
 <summary>Attack hook (<a href="#table-of-content">Table of content</a>)</summary>
 <p>
 
-| CTF Name | Challenge | Other bug |
+| CTF Name | Challenge | Other bug/technique |
 | :---: | :---: | :---: |
-| [pwnable.tw](pwnable.tw) | 3x17 |  |
+| [pwnable.tw](#pwnable.tw) | 3x17 |  |
 
 </p>
 </details>
@@ -126,9 +130,22 @@
 <summary>Other (<a href="#table-of-content">Table of content</a>)</summary>
 <p>
 
-| CTF Name | Challenge | Other bug |
+| CTF Name | Challenge | Other bug/technique |
 | :---: | :---: | :---: |
+| [SVATTT 2019](#svattt-2019) | three_o_three |  |
 | [pwnable.tw](#pwnable.tw) | calc |  |
+
+</p>
+</details>
+
+<details id="heap-tcache-attack">
+<summary>Heap - Tcache attack (<a href="#table-of-content">Table of content</a>)</summary>
+<p>
+
+| CTF Name | Challenge | Other bug/technique |
+| :---: | :---: | :---: |
+| [ISITDTU 2019](#isitdtu-2019) | iz_heap_lv1 |  |
+| [DefCamp CTF 21-22 Online](#defcamp-ctf-21-22-online) | cache | `Use After Free` `Double Free` |
 
 </p>
 </details>
@@ -343,7 +360,7 @@
 </p>
 </details>
 
-<details>
+<details id="dicectf-2022">
 <summary>DiceCTF 2022</summary>
 <p>
 
@@ -355,7 +372,7 @@
 </p>
 </details>
 
-<details>
+<details id="defcamp-ctf-21-22-online">
 <summary>DefCamp CTF 21-22 Online</summary>
 <p>
 
