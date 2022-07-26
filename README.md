@@ -7,9 +7,23 @@
 
 # Categories
 
+<details id="shellcode">
+<summary>Shellcode (<a href="#table-of-content">Table of content</a>)</summary>
+<p>
+
+| CTF Name | Challenge | Other bug |
+| :---: | :---: | :---: |
+| [pwn.tn](#pwnable.tw) | orw |  |
+
+</p>
+</details>
+
 <details id="integer-overflow">
 <summary>Integer Overflow (<a href="#table-of-content">Table of content</a>)</summary>
 <p>
+
+| CTF Name | Challenge | Other bug |
+| :---: | :---: | :---: |
 
 </p>
 </details>
@@ -18,6 +32,11 @@
 <summary>Buffer Overflow (<a href="#table-of-content">Table of content</a>)</summary>
 <p>
 
+| CTF Name | Challenge | Other bug |
+| :---: | :---: | :---: |
+| [pwn.tn](#pwnable.tw) | Start | `Shellcode` |
+| [pwn.tn](#pwn.tn) | f_two | `Format String` `Integer Overflow` |
+
 </p>
 </details>
 
@@ -25,9 +44,9 @@
 <summary>Format String (<a href="#table-of-content">Table of content</a>)</summary>
 <p>
 
-| CTF Name | Challenge | 
-| :---: | :---: |
-| [pwn.tn](#pwn.tn) | f_one |
+| CTF Name | Challenge | Other bug |
+| :---: | :---: | :---: |
+| [pwn.tn](#pwn.tn) | f_one |  |
 
 </p>
 </details>
@@ -36,12 +55,18 @@
 <summary>ROP (<a href="#table-of-content">Table of content</a>)</summary>
 <p>
 
+| CTF Name | Challenge | Other bug |
+| :---: | :---: | :---: |
+
 </p>
 </details>
 
 <details id="sig-rop">
 <summary>Sig-ROP (<a href="#table-of-content">Table of content</a>)</summary>
 <p>
+
+| CTF Name | Challenge | Other bug |
+| :---: | :---: | :---: |
 
 </p>
 </details>
@@ -50,12 +75,18 @@
 <summary>Blind-ROP (<a href="#table-of-content">Table of content</a>)</summary>
 <p>
 
+| CTF Name | Challenge | Other bug |
+| :---: | :---: | :---: |
+
 </p>
 </details>
 
 <details id="off-by-one">
 <summary>Off-by-one (<a href="#table-of-content">Table of content</a>)</summary>
 <p>
+
+| CTF Name | Challenge | Other bug |
+| :---: | :---: | :---: |
 
 </p>
 </details>
@@ -64,12 +95,40 @@
 <summary>Out-of-bound (<a href="#table-of-content">Table of content</a>)</summary>
 <p>
 
+| CTF Name | Challenge | Other bug |
+| :---: | :---: | :---: |
+
 </p>
 </details>
 
 <details id="ret2dlresolve">
 <summary>ret2dlresolve (<a href="#table-of-content">Table of content</a>)</summary>
 <p>
+
+| CTF Name | Challenge | Other bug |
+| :---: | :---: | :---: |
+
+</p>
+</details>
+
+<details id="ret2dlresolve">
+<summary>Attack hook (<a href="#table-of-content">Table of content</a>)</summary>
+<p>
+
+| CTF Name | Challenge | Other bug |
+| :---: | :---: | :---: |
+| [pwnable.tw](pwnable.tw) | 3x17 |  |
+
+</p>
+</details>
+
+<details id="other">
+<summary>Other (<a href="#table-of-content">Table of content</a>)</summary>
+<p>
+
+| CTF Name | Challenge | Other bug |
+| :---: | :---: | :---: |
+| [pwnable.tw](#pwnable.tw) | calc |  |
 
 </p>
 </details>
@@ -353,8 +412,8 @@
 </p>
 </details>
 
-<details>
-<summary id="pwn.tn">pwn.tn</summary>
+<details id="pwn.tn">
+<summary>pwn.tn</summary>
 <p>
 
 | Name | Type | File Type | Technique |
