@@ -1,13 +1,26 @@
 # Table of content
 
 <details>
-<summary>[Categories](#categories)</summary>
+<summary>Categories</summary>
 <p>
+
+- [Buffer Overflow](#buffer-overflow)
+- [Format String]
+- [ROP]
+- [Sig-ROP]
+- [Blind-ROP]
+- [Off-by-one]
+- [Out-of-bound]
 
 </p>
 </details>
 
-- [CTF events](#ctf-events)
+<details>
+<summary>CTF events</summary>
+<p>
+
+</p>
+</details>
 
 <!-- <details>
 <summary>By type</summary>
@@ -20,7 +33,7 @@
 
 # Categories
 
-<details>
+<details id="buffer-overflow">
 <summary>Buffer Overflow</summary>
 <p>
 
