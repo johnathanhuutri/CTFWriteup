@@ -353,8 +353,8 @@
 </p>
 </details>
 
-<details id="pwn.tn">
-<summary>pwn.tn</summary>
+<details>
+<summary id="pwn.tn">pwn.tn</summary>
 <p>
 
 | Name | Type | File Type | Technique |
