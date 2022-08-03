@@ -175,9 +175,45 @@
 </details>
 
 
+<details id="heap-house-of-husk">
+<summary>Heap - House of Husk</summary>
+<p>
+
+| CTF Name | Challenge | Other bug/technique |
+| :---: | :---: | :---: |
+
+</p>
+</details>
+
+
+<details id="heap-house-of-muney">
+<summary>Heap - House of Muney</summary>
+<p>
+
+| CTF Name | Challenge | Other bug/technique |
+| :---: | :---: | :---: |
+
+</p>
+</details>
+
+
 # CTF events
 
 ### 2022
+
+<details id="litctf-2022">
+<summary>LITCTF 2022</summary>
+<p>
+
+| Name | File Type | Bug | Technique | Note |
+| :---: | :---: | :---: | :---: | :---: |
+<!-- | [Private Bank](https://github.com/nhtri2003gmail/CTFNote/tree/master/writeup/2022/vsCTF-2022/PrivateBank) | c (64 bit) |  |  |  |
+| [ForNBack](https://github.com/nhtri2003gmail/CTFNote/tree/master/writeup/2022/vsCTF-2022/ForNBack) | c (64 bit) | `Use After Free` | `Tcache Attack` |  |
+| [Private Bank](https://github.com/nhtri2003gmail/CTFNote/tree/master/writeup/2022/vsCTF-2022/EzOrange) | c (64 bit) | `Out-Of-Bound` | `Tcache Attack` |  | -->
+
+
+</p>
+</details>
 
 <details id="imaginaryctf-2022">
 <summary>ImaginaryCTF 2022</summary>
