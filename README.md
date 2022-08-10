@@ -457,13 +457,13 @@
 
 | Name | Type | File Type | Technique |
 | :---: | :---: | :---: | :---: |
-| [ArrayUnderFl0w](2022/KCSC-CTF/ArrayUnderFl0w) | pwn | c | `Unchecked Index` |
-| [guessMe](2022/KCSC-CTF/guessMe) | pwn | c | `Specific Seed Rand` |
-| [Make Me Crash](2022/KCSC-CTF/Make-Me-Crash) | pwn | c | `Buffer Overflow` |
-| [Chall](2022/KCSC-CTF/Chall) | pwn | c | `Format String` |
-| [ret2win](2022/KCSC-CTF/ret2win) | pwn | c | `Buffer Overflow` |
-| [get OVER InT](2022/KCSC-CTF/GET_OVER_InT) | pwn | c | `Integer Overflow` |
-| [bof1](2022/KCSC-CTF/bof1) | pwn | c | `Buffer Overflow` |
+| [ArrayUnderFl0w](2022/KCSC-CTF-entrance-test/ArrayUnderFl0w) | pwn | c | `Unchecked Index` |
+| [guessMe](2022/KCSC-CTF-entrance-test/guessMe) | pwn | c | `Specific Seed Rand` |
+| [Make Me Crash](2022/KCSC-CTF-entrance-test/Make-Me-Crash) | pwn | c | `Buffer Overflow` |
+| [Chall](2022/KCSC-CTF-entrance-test/Chall) | pwn | c | `Format String` |
+| [ret2win](2022/KCSC-CTF-entrance-test/ret2win) | pwn | c | `Buffer Overflow` |
+| [get OVER InT](2022/KCSC-CTF-entrance-test/GET_OVER_InT) | pwn | c | `Integer Overflow` |
+| [bof1](2022/KCSC-CTF-entrance-test/bof1) | pwn | c | `Buffer Overflow` |
 
 </p>
 </details>
