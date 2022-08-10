@@ -1,4 +1,4 @@
-# KCSC CTF 2022 - readOnly
+# KCSC CTF 2022 - feedback
 
 Các bạn có thể tải chall ở repo của mình: [feedback.zip](feedback.zip)
 
