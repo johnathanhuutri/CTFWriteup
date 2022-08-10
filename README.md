@@ -529,12 +529,12 @@
 
 | Name | File Type | Bug | Technique | Note |
 | :---: | :---: | :---: | :---: | :---: |
-| [Start](pwnable.tw/Start) | c (32 bit) | `Buffer Overflow` | `ROPchain` `Shellcode` |  |
-| [orw](pwnable.tw/orw) | c (32 bit) |  | `Shellcode` |  |
-| [calc](pwnable.tw/calc) | c (32 bit) |  | `ROPchain` |  |
-| [3x17](pwnable.tw/3x17) | c (64 bit) |  | `ROPchain` | Attack by overwriting `.fini_array` |
-| [Re-alloc](pwnable.tw/Re-alloc) | c (64 bit) | `Use After Free` | `Overwrite GOT` |  |
-| [Kidding](pwnable.tw/Kidding) | c (32 bit) | `Buffer Overflow` | `Ret2shellcode` | SYS_SOCKET and SYS_CONNECT to make a reverse shell |
+| [Start](online/pwnable.tw/Start) | c (32 bit) | `Buffer Overflow` | `ROPchain` `Shellcode` |  |
+| [orw](online/pwnable.tw/orw) | c (32 bit) |  | `Shellcode` |  |
+| [calc](online/pwnable.tw/calc) | c (32 bit) |  | `ROPchain` |  |
+| [3x17](online/pwnable.tw/3x17) | c (64 bit) |  | `ROPchain` | Attack by overwriting `.fini_array` |
+| [Re-alloc](online/pwnable.tw/Re-alloc) | c (64 bit) | `Use After Free` | `Overwrite GOT` |  |
+| [Kidding](online/pwnable.tw/Kidding) | c (32 bit) | `Buffer Overflow` | `Ret2shellcode` | SYS_SOCKET and SYS_CONNECT to make a reverse shell |
 
 </p>
 </details>
