@@ -48,6 +48,7 @@
 | [KCSC - Entrance exam](#kcsc-entrance-exam) | Make Me Crash |  |
 | [KCSC - Entrance exam](#kcsc-entrance-exam) | ret2win |  |
 | [KCSC - Entrance exam](#kcsc-entrance-exam) | bof1 |  |
+| [pwnable.tw](#pwnable.tw) | Kidding | `Shellcode` |
 | [pwnable.tw](#pwnable.tw) | Start | `Shellcode` |
 | [pwn.tn](#pwn.tn) | f_two | `Format String` `Integer Overflow` |
 
@@ -322,7 +323,7 @@
 
 | Name | File Type | Bug | Technique | Note |
 | :---: | :---: | :---: | :---: | :---: |
-| [Duet](2022/KMACTF-2022/Duet) | c (64 bit) | `Buffer Overflow` | `Ret2Shellcode` | Shellcode (32 bit) can be executed on 64 bit binary and argument when execute `int 0x80` will be eax, ebx, ecx, edx... |
+| [Duet](2022/KMACTF-2022/Duet) | c (64 bit) | `Buffer Overflow` | `Shellcode` | Shellcode (32 bit) can be executed on 64 bit binary and argument when execute `int 0x80` will be eax, ebx, ecx, edx... |
 | [Two Shot](2022/KMACTF-2022/TwoShot) | c (64 bit) | `Buffer Overflow` `Format String` | `Ret2libc` |  |
 
 
@@ -534,7 +535,7 @@
 | [calc](online/pwnable.tw/calc) | c (32 bit) |  | `ROPchain` |  |
 | [3x17](online/pwnable.tw/3x17) | c (64 bit) |  | `ROPchain` | Attack by overwriting `.fini_array` |
 | [Re-alloc](online/pwnable.tw/Re-alloc) | c (64 bit) | `Use After Free` | `Overwrite GOT` |  |
-| [Kidding](online/pwnable.tw/Kidding) | c (32 bit) | `Buffer Overflow` | `Ret2shellcode` | SYS_SOCKET and SYS_CONNECT to make a reverse shell |
+| [Kidding](online/pwnable.tw/Kidding) | c (32 bit) | `Buffer Overflow` | `Shellcode` | SYS_SOCKET and SYS_CONNECT to make a reverse shell |
 
 </p>
 </details>
