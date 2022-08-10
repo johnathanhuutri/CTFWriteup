@@ -13,6 +13,7 @@
 
 | CTF Name | Challenge | Other bug |
 | :---: | :---: | :---: |
+| [KMACTF 2022](#kmactf-2022) | Duet | `Buffer Overflow` |
 | [pwn.tn](#pwnable.tw) | orw |  |
 
 </p>
@@ -24,6 +25,9 @@
 
 | CTF Name | Challenge | Other bug/technique |
 | :---: | :---: | :---: |
+| [HCMUS CTF 2022](#hcmus-ctf-2022) | calert | `Integer Overflow` `Ret2libc` |
+| [zer0pts CTF 2022](#zer0pts-ctf-2022) | Modern Rome |  |
+| [zer0pts CTF 2022](#zer0pts-ctf-2022) | accountant | `ret2libc` |
 | [KCSC - Entrance exam](#kcsc-entrance-exam) | get OVER InT |  |
 
 </p>
@@ -35,6 +39,11 @@
 
 | CTF Name | Challenge | Other bug/technique |
 | :---: | :---: | :---: |
+| [Google CTF 2022](#google-ctf-2022) | FixedASLR | `Out-of-bound` `Crypto - LFSR algorithm` |
+| [WhiteHat Play 11](#whitehat-play-11) | pwn07-Silence |  |
+| [KMACTF 2022](#kmactf-2022) | Two Shot | `Format String` `Ret2libc` |
+| [Pragyan CTF 2022](#pragyan-ctf-2022) | Comeback |  |
+| [Pragyan CTF 2022](#pragyan-ctf-2022) | Poly-Flow |  |
 | [MOCSCTF 2022](#mocsctf-2022) | calc | `Out-of-bound` |
 | [KCSC - Entrance exam](#kcsc-entrance-exam) | Make Me Crash |  |
 | [KCSC - Entrance exam](#kcsc-entrance-exam) | ret2win |  |
@@ -51,6 +60,12 @@
 
 | CTF Name | Challenge | Other bug/technique |
 | :---: | :---: | :---: |
+| [vsCTF 2022](#vsctf-2022) | Private Bank |  |
+| [WhiteHat Play 11](#whitehat-play-11) | pwn06-Ez_fmt |  |
+| [HCMUS CTF 2022](#hcmus-ctf-2022) | WWW |  |
+| [KCSC CTF 2022](#kcsc-ctf-2022) | pwnMe | `Ret2libc` |
+| [Pragyan CTF 2022](#pragyan-ctf-2022) | TBBT |  |
+| [Pragyan CTF 2022](#pragyan-ctf-2022) | Portal |  |
 | [Wanna Game 2022](#wanna-game-2022) | Letwarnup |  |
 | [KCSC - Entrance exam](#kcsc-entrance-exam) | Chall |  |
 | [pwn.tn](#pwn.tn) | f_one |  |
@@ -75,6 +90,8 @@
 
 | CTF Name | Challenge | Other bug/technique |
 | :---: | :---: | :---: |
+| [KCSC CTF 2022](#kcsc-ctf-2022) | start | `Buffer Overflow` |
+| [KCSC CTF 2022](#kcsc-ctf-2022) | feedback | `Buffer Overflow` `Integer Overflow` |
 
 </p>
 </details>
@@ -119,6 +136,7 @@
 
 | CTF Name | Challenge | Other bug/technique |
 | :---: | :---: | :---: |
+| [KCSC CTF 2022](#kcsc-ctf-2022) | readOnly | `Buffer Overflow` |
 | [TSJ CTF 2022](#tsj-ctf-2022) | bacteria | `Buffer Overflow` |
 | [DiceCTF 2022](#dicectf-2022) | dataeater | `Format String` |
 
@@ -131,6 +149,7 @@
 
 | CTF Name | Challenge | Other bug/technique |
 | :---: | :---: | :---: |
+| [SVATTT 2019](#svattt-2019) | three_o_three |  |
 | [pwnable.tw](#pwnable.tw) | 3x17 |  |
 
 </p>
@@ -142,8 +161,8 @@
 
 | CTF Name | Challenge | Other bug/technique |
 | :---: | :---: | :---: |
+| [KCSC CTF 2022](#kcsc-ctf-2022) | guess2pwn |  |
 | [KCSC - Entrance exam](#kcsc-entrance-exam) | guessMe | `Specific Seed Rand` |
-| [SVATTT 2019](#svattt-2019) | three_o_three |  |
 | [pwnable.tw](#pwnable.tw) | calc |  |
 
 </p>
@@ -155,6 +174,7 @@
 
 | CTF Name | Challenge | Other bug/technique |
 | :---: | :---: | :---: |
+| [KCSC CTF 2022](#kcsc-ctf-2022) | babyheap | `Use After Free` `Heap Overflow` |
 | [MOCSCTF 2022](#mocsctf-2022) | C@ge |  |
 
 </p>
@@ -166,6 +186,10 @@
 
 | CTF Name | Challenge | Other bug/technique |
 | :---: | :---: | :---: |
+| [vsCTF 2022](#vsctf-2022) | EzOrange | `Out-of-bound` |
+| [vsCTF 2022](#vsctf-2022) | ForNBack | `Use After Free` |
+| [WhiteHat Play 11](#whitehat-play-11) | pwn08-Ruby | `Integer Overflow` `tcache_perthread_struct attack` |
+| [Pragyan CTF 2022](#pragyan-ctf-2022) | Database | `Heap Overflow` |
 | [MOCSCTF 2022](#mocsctf-2022) | orange | `House of Orange` |
 | [Wanna Game 2022](#wanna-game-2022) | note | `Use After Free` |
 | [ISITDTU 2019](#isitdtu-2019) | iz_heap_lv1 |  |
@@ -174,6 +198,28 @@
 </p>
 </details>
 
+<details id="heap-house-of-force">
+<summary>Heap - House of Botcacke </summary>
+<p>
+
+| CTF Name | Challenge | Other bug/technique |
+| :---: | :---: | :---: |
+| [KCSC CTF 2022](#kcsc-ctf-2022) | 5ecretN0te | `Heap Overflow` |
+| [Wolverine Security Conference/CTF](#wolverine-security-conference-ctf) | Us3_th3_F0rc3 | `Heap Overflow` |
+
+</p>
+</details>
+
+<details id="heap-house-of-botcake">
+<summary>Heap - House of Botcacke </summary>
+<p>
+
+| CTF Name | Challenge | Other bug/technique |
+| :---: | :---: | :---: |
+| [FooBar CTF 2022](#foobar-ctf-2022) | Death-note | `Use After Free` `Tcache Attack` |
+
+</p>
+</details>
 
 <details id="heap-house-of-husk">
 <summary>Heap - House of Husk</summary>
@@ -224,6 +270,8 @@
 <!-- | [Private Bank](https://github.com/nhtri2003gmail/CTFNote/tree/master/writeup/2022/vsCTF-2022/PrivateBank) | c (64 bit) |  |  |  |
 | [ForNBack](https://github.com/nhtri2003gmail/CTFNote/tree/master/writeup/2022/vsCTF-2022/ForNBack) | c (64 bit) | `Use After Free` | `Tcache Attack` |  |
 | [Private Bank](https://github.com/nhtri2003gmail/CTFNote/tree/master/writeup/2022/vsCTF-2022/EzOrange) | c (64 bit) | `Out-Of-Bound` | `Tcache Attack` |  | -->
+
+---
 
 
 </p>
@@ -366,8 +414,6 @@
 </p>
 </details>
 
----
-
 <details id="tsj-ctf-2022">
 <summary>TSJ CTF 2022</summary>
 <p>
@@ -483,10 +529,12 @@
 
 | Name | File Type | Bug | Technique | Note |
 | :---: | :---: | :---: | :---: | :---: |
-| [Start](https://github.com/nhtri2003gmail/CTFNote/tree/master/writeup/online/pwnable.tw/Start) | c (32 bit) | `Buffer Overflow` | `ROPchain` `Shellcode` |  |
-| [orw](https://github.com/nhtri2003gmail/CTFNote/tree/master/writeup/online/pwnable.tw/orw) | c (32 bit) |  | `Shellcode` |  |
-| [calc](https://github.com/nhtri2003gmail/CTFNote/tree/master/writeup/online/pwnable.tw/calc) | c (32 bit) |  | `ROPchain` |  |
-| [3x17](https://github.com/nhtri2003gmail/CTFNote/tree/master/writeup/online/pwnable.tw/3x17) | c (64 bit) |  | `ROPchain` | Attack by overwriting `.fini_array` |
+| [Start](pwnable.tw/Start) | c (32 bit) | `Buffer Overflow` | `ROPchain` `Shellcode` |  |
+| [orw](pwnable.tw/orw) | c (32 bit) |  | `Shellcode` |  |
+| [calc](pwnable.tw/calc) | c (32 bit) |  | `ROPchain` |  |
+| [3x17](pwnable.tw/3x17) | c (64 bit) |  | `ROPchain` | Attack by overwriting `.fini_array` |
+| [Re-alloc](pwnable.tw/Re-alloc) | c (64 bit) | `Use After Free` | `Overwrite GOT` |  |
+| [Kidding](pwnable.tw/Kidding) | c (32 bit) | `Buffer Overflow` | `Ret2shellcode` | SYS_SOCKET and SYS_CONNECT to make a reverse shell |
 
 </p>
 </details>
