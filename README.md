@@ -13,6 +13,7 @@
 
 | CTF Name | Challenge | Other bug |
 | :---: | :---: | :---: |
+| [ImaginaryCTF 2022](#imaginaryctf-2022) | bellcode |  |
 | [KMACTF 2022](#kmactf-2022) | Duet | `Buffer Overflow` |
 | [pwn.tn](#pwnable.tw) | orw |  |
 
@@ -61,6 +62,9 @@
 
 | CTF Name | Challenge | Other bug/technique |
 | :---: | :---: | :---: |
+| [ImaginaryCTF 2022](#imaginaryctf-2022) | rope |  |
+| [ImaginaryCTF 2022](#imaginaryctf-2022) | Format String Foolery |  |
+| [ImaginaryCTF 2022](#imaginaryctf-2022) | Format String Fun |  |
 | [vsCTF 2022](#vsctf-2022) | Private Bank |  |
 | [WhiteHat Play 11](#whitehat-play-11) | pwn06-Ez_fmt |  |
 | [HCMUS CTF 2022](#hcmus-ctf-2022) | WWW |  |
@@ -228,6 +232,7 @@
 
 | CTF Name | Challenge | Other bug/technique |
 | :---: | :---: | :---: |
+| [ImaginaryCTF 2022](#imaginaryctf-2022) | minecraft | `Use After Free` `Format String` |
 
 </p>
 </details>
