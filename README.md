@@ -268,9 +268,13 @@
 
 | Name | File Type | Bug | Technique | Note |
 | :---: | :---: | :---: | :---: | :---: |
-<!-- | [Private Bank](2022/vsCTF-2022/PrivateBank) | c (64 bit) |  |  |  |
-| [ForNBack](2022/vsCTF-2022/ForNBack) | c (64 bit) | `Use After Free` | `Tcache Attack` |  |
-| [Private Bank](2022/vsCTF-2022/EzOrange) | c (64 bit) | `Out-Of-Bound` | `Tcache Attack` |  | -->
+| [Format String Foolery](2022/Imaginary-CTF-2022/FormatStringFoolery) | c (64 bit) | `Format String` |  | Change `link_map->l_addr` to another value so when `_dl_fini` is execute, it will take address of `.fini_array + link_map->l_addr` and execute that address |
+| [Format String Fun](2022/Imaginary-CTF-2022/FormatStringFun) | c (64 bit) | `Format String` |  | Change `link_map->l_addr` to another value so when `_dl_fini` is execute, it will take address of `.fini_array + link_map->l_addr` and execute that address |
+| [bellcode](2022/Imaginary-CTF-2022/bellcode) | c (64 bit) |  | `Shellcode` |  |
+| [golf](2022/Imaginary-CTF-2022/golf) | c (64 bit) | `Format String` |  | Use `%*<k>$c` to write the 32-bit address on stack to an address we want |
+| [rope](2022/Imaginary-CTF-2022/rope) | c (64 bit) |  | `Shellcode` | Overwrite `_IO_file_jumps + ??` to make puts execute system |
+| [pywrite](2022/Imaginary-CTF-2022/pywrite) | python3 |  |  | Read libc address from a @got and modify a @got to system |
+| [minecraft](2022/Imaginary-CTF-2022/minecraft) | c (64 bit) | `Use After Free` `Format String` | `House of Husk` |  |
 
 ---
 
