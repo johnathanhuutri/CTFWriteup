@@ -204,7 +204,7 @@
 </details>
 
 <details id="heap-house-of-force">
-<summary>Heap - House of Botcacke </summary>
+<summary>Heap - House of Force </summary>
 <p>
 
 | CTF Name | Challenge | Other bug/technique |
