@@ -166,6 +166,7 @@
 
 | CTF Name | Challenge | Other bug/technique |
 | :---: | :---: | :---: |
+| [LITCTF 2022](#litctf-2022) | IntArray |  |
 | [KCSC CTF 2022](#kcsc-ctf-2022) | guess2pwn |  |
 | [KCSC - Entrance exam](#kcsc-entrance-exam) | guessMe | `Specific Seed Rand` |
 | [pwnable.tw](#pwnable.tw) | calc |  |
@@ -259,9 +260,7 @@
 
 | Name | File Type | Bug | Technique | Note |
 | :---: | :---: | :---: | :---: | :---: |
-<!-- | [Private Bank](2022/vsCTF-2022/PrivateBank) | c (64 bit) |  |  |  |
-| [ForNBack](2022/vsCTF-2022/ForNBack) | c (64 bit) | `Use After Free` | `Tcache Attack` |  |
-| [Private Bank](2022/vsCTF-2022/EzOrange) | c (64 bit) | `Out-Of-Bound` | `Tcache Attack` |  | -->
+| [IntArray](2022/LITCTF/IntArray) | c (64 bit) |  |  |  |
 
 
 </p>
