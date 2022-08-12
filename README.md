@@ -254,7 +254,7 @@
 
 | CTF Name | Challenge | Other bug/technique |
 | :---: | :---: | :---: |
-| [pwnable.tw](pwnable.tw) | seethefile | `Buffer Overflow` |
+| [pwnable.tw](#pwnable.tw) | seethefile | `Buffer Overflow` |
 
 
 </p>
