@@ -238,7 +238,6 @@
 </p>
 </details>
 
-
 <details id="heap-house-of-muney">
 <summary>Heap - House of Muney</summary>
 <p>
@@ -249,6 +248,17 @@
 </p>
 </details>
 
+<details id="exploitation-of-file">
+<summary>Exploitation of FILE</summary>
+<p>
+
+| CTF Name | Challenge | Other bug/technique |
+| :---: | :---: | :---: |
+| [pwnable.tw](pwnable.tw) | seethefile | `Buffer Overflow` |
+
+
+</p>
+</details>
 
 # CTF events
 
@@ -544,6 +554,7 @@
 | [3x17](online/pwnable.tw/3x17) | c (64 bit) |  | `ROPchain` | Attack by overwriting `.fini_array` |
 | [Re-alloc](online/pwnable.tw/Re-alloc) | c (64 bit) | `Use After Free` | `Overwrite GOT` |  |
 | [Kidding](online/pwnable.tw/Kidding) | c (32 bit) | `Buffer Overflow` | `Shellcode` | SYS_SOCKET and SYS_CONNECT to make a reverse shell |
+| [seethefile](online/pwnable.tw/seethefile) | c (32 bit) | `Buffer Overflow` |  |  |
 
 </p>
 </details>
