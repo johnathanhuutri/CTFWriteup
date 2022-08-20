@@ -49,6 +49,7 @@
 | [KCSC - Entrance exam](#kcsc-entrance-exam) | Make Me Crash |  |
 | [KCSC - Entrance exam](#kcsc-entrance-exam) | ret2win |  |
 | [KCSC - Entrance exam](#kcsc-entrance-exam) | bof1 |  |
+| [pwnable.tw](#pwnable.tw) | Spirited Away |  |
 | [pwnable.tw](#pwnable.tw) | Kidding | `Shellcode` |
 | [pwnable.tw](#pwnable.tw) | Start | `Shellcode` |
 | [pwn.tn](#pwn.tn) | f_two | `Format String` `Integer Overflow` |
@@ -555,6 +556,7 @@
 | [Re-alloc](online/pwnable.tw/Re-alloc) | c (64 bit) | `Use After Free` | `Overwrite GOT` |  |
 | [Kidding](online/pwnable.tw/Kidding) | c (32 bit) | `Buffer Overflow` | `Shellcode` | SYS_SOCKET and SYS_CONNECT to make a reverse shell |
 | [seethefile](online/pwnable.tw/seethefile) | c (32 bit) | `Buffer Overflow` |  |  |
+| [Spirited Away](online/pwnable.tw/Spirited_Away) | c (32 bit) | `Buffer Overflow` |  |  |
 
 </p>
 </details>
