@@ -276,6 +276,19 @@
 
 ### 2022
 
+<details id="kmactf-iii-2022">
+<summary>KMACTF III - 2022</summary>
+<p>
+
+| Name | File Type | Bug | Technique | Note |
+| :---: | :---: | :---: | :---: | :---: |
+| [Secret Machine](2022/KMACTF-III/SecretMachine) | c (64 bit) |  |  |  |
+| [Game of KMA](2022/KMACTF-III/GameofKMA) | c (64 bit) | `Out-Of-Bound` |  |  |
+
+
+</p>
+</details>
+
 <details id="litctf-2022">
 <summary>LITCTF 2022</summary>
 <p>
