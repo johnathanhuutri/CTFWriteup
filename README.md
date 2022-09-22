@@ -277,8 +277,8 @@
 
 ### 2022
 
-<details id="kmactf-iii-2022">
-<summary>KMACTF III - 2022</summary>
+<details id="0ctf-tctf-2022">
+<summary>0CTF/TCTF 2022</summary>
 <p>
 
 | Name | File Type | Bug | Technique | Note |
