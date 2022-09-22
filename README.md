@@ -283,6 +283,17 @@
 
 | Name | File Type | Bug | Technique | Note |
 | :---: | :---: | :---: | :---: | :---: |
+| [BabyHeap 2022](2022/0CTF-2022/BabyHeap-2022) | c (64 bit) | `Heap Overflow` |  | Attack `tls_dtor_list`, set null for guard and setup fake `dtor_list` in `tls_dtor_list` |
+
+</p>
+</details>
+
+<details id="kmactf-iii-2022">
+<summary>KMACTF III - 2022</summary>
+<p>
+
+| Name | File Type | Bug | Technique | Note |
+| :---: | :---: | :---: | :---: | :---: |
 | [Secret Machine](2022/KMACTF-III/SecretMachine) | c (64 bit) |  |  |  |
 | [Game of KMA](2022/KMACTF-III/GameofKMA) | c (64 bit) | `Out-Of-Bound` |  |  |
 
