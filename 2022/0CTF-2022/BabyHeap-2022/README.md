@@ -41,7 +41,7 @@ Or
 
 With `f` is the structure `exit_function`:
 
-![f-structure.png](images/f-structure)
+![f-structure.png](images/f-structure.png)
 
 You can check source of exit [here](https://elixir.bootlin.com/glibc/glibc-2.35/source/stdlib/exit.c#L38), source of `__call_tls_dtors` [here](https://elixir.bootlin.com/glibc/glibc-2.35/source/stdlib/cxa_thread_atexit_impl.c#L148). Notice that before the function is called, it has to be `PTR_DEMANGLE` first and you can check it [here](https://elixir.bootlin.com/glibc/glibc-2.35/source/sysdeps/unix/sysv/linux/x86_64/sysdep.h#L394). The micro `PTR_DEMANGLE` will rotate bit right 17 bit and xor with the guard which is random value.
 
@@ -426,7 +426,7 @@ payload = flat(
 
 And we just need to exit the program to execute our ROPchain:
 
-![execute-ropchain.png](images/execute-ropchain)
+![execute-ropchain.png](images/execute-ropchain.png)
 
 Full script: [solve.py](solve.py)
 
