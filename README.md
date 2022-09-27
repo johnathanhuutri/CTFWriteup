@@ -277,6 +277,17 @@
 
 ### 2022
 
+<details id="downunderctf-2022">
+<summary>DownUnderCTF - 2022</summary>
+<p>
+
+| Name | File Type | Bug | Technique | Note |
+| :---: | :---: | :---: | :---: | :---: |
+| [just-in-kernel](2022/DownUnder-CTF-2022/just-in-kernel) | kernel |  |  | First post about kernel exploit, should read first |
+
+</p>
+</details>
+
 <details id="ascis-warmup-2022">
 <summary>ASCIS WarmUp - 2022</summary>
 <p>
