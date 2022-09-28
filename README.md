@@ -296,7 +296,7 @@
 
 | Name | File Type | Bug | Technique | Note |
 | :---: | :---: | :---: | :---: | :---: |
-| [just-in-kernel](2022/DownUnder-CTF-2022/just-in-kernel) | kernel |  |  | First post about kernel exploit, should read first |
+| [just-in-kernel](2022/DownUnder-CTF-2022/just-in-kernel) | kernel |  |  | First post about kernel exploit, should read this after you read welkerme of [CakeCTF 2022](#cakectf-2022) |
 
 </p>
 </details>
@@ -319,7 +319,7 @@
 
 | Name | File Type | Bug | Technique | Note |
 | :---: | :---: | :---: | :---: | :---: |
-| [welkerme](2022/CakeCTF-2022/welkerme) | kernel |  |  |  |
+| [welkerme](2022/CakeCTF-2022/welkerme) | kernel |  |  | Basic stuff for kernel exploit. Please read this first! |
 
 </p>
 </details>
