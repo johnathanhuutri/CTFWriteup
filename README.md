@@ -273,6 +273,19 @@
 </p>
 </details>
 
+<details id="kernel-exploit">
+<summary>Kernel Exploit</summary>
+<p>
+
+| CTF Name | Challenge | Other bug/technique |
+| :---: | :---: | :---: |
+| [CakeCTF 2022](#cakectf-2022) | welkerme | `Shellcode` |
+| [DownUnderCTF - 2022](#downunderctf-2022) | just-in-kernel | `Shellcode` |
+
+
+</p>
+</details>
+
 # CTF events
 
 ### 2022
@@ -296,6 +309,17 @@
 | :---: | :---: | :---: | :---: | :---: |
 | [DOGE [Forensics]](2022/ASCIS-WarmUp-2022/DOGE) |  |  |  |  |
 | [Simple Forensics [Forensics]](2022/ASCIS-WarmUp-2022/Simple-Forensics) |  |  |  |  |
+
+</p>
+</details>
+
+<details id="cakectf-2022">
+<summary>CakeCTF 2022</summary>
+<p>
+
+| Name | File Type | Bug | Technique | Note |
+| :---: | :---: | :---: | :---: | :---: |
+| [welkerme](2022/CakeCTF-2022/welkerme) | kernel |  |  |  |
 
 </p>
 </details>
