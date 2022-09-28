@@ -319,7 +319,7 @@
 
 | Name | File Type | Bug | Technique | Note |
 | :---: | :---: | :---: | :---: | :---: |
-| [welkerme](2022/CakeCTF-2022/welkerme) | kernel |  |  | Basic stuff for kernel exploit. Please read this first! |
+| [welkerme](2022/CakeCTF-2022/welkerme) | kernel |  |  | Basic stuff for kernel exploit. Please read the file README.md to have a first approach of it! |
 
 </p>
 </details>
