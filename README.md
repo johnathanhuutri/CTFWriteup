@@ -65,7 +65,7 @@
 | CTF Name | Challenge | Other bug/technique |
 | :---: | :---: | :---: |
 | [pwnable.tw](#pwnable.tw) | apple store (Didn't make writeup) |  |
-| [GDGAlgiers CTF 2022](#gdgalgiers-ctf-2022) | XOR |  |
+| [GDGAlgiers CTF 2022](#gdgalgiers-ctf-2022) | XOR | `Ret2Libc` |
 
 </p>
 </details>
