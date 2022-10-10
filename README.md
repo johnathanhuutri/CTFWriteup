@@ -58,6 +58,18 @@
 </p>
 </details>
 
+<details id="uninitialized-variable">
+<summary>Uninitialized Variable</summary>
+<p>
+
+| CTF Name | Challenge | Other bug/technique |
+| :---: | :---: | :---: |
+| [pwnable.tw](#pwnable.tw) | apple store (Didn't make writeup) |  |
+| [GDGAlgiers CTF 2022](#gdgalgiers-ctf-2022) | XOR |  |
+
+</p>
+</details>
+
 <details id="format-string">
 <summary>Format String</summary>
 <p>
@@ -624,7 +636,7 @@
 ### Online
 
 <details id="pwnable.vn">
-<summary>pwnable.tw</summary>
+<summary>pwnable.vn</summary>
 <p>
 
 | Name | File Type | Bug | Technique | Note |
