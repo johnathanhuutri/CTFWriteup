@@ -301,6 +301,18 @@
 # CTF events
 
 ### 2022
+[GDGAlgiers CTF 2022](#gdgalgiers-ctf-2022)
+
+<details id="gdgalgiers-ctf-2022">
+<summary>GDGAlgiers CTF 2022</summary>
+<p>
+
+| Name | File Type | Bug | Technique | Note |
+| :---: | :---: | :---: | :---: | :---: |
+| [XOR](2022/GDGAlgiers-CTF-2022/XOR) | c (64 bit) | `Uninitialized Variable` | `Ret2Libc` |  |
+
+</p>
+</details>
 
 <details id="downunderctf-2022">
 <summary>DownUnderCTF - 2022</summary>
