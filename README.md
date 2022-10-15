@@ -301,7 +301,6 @@
 # CTF events
 
 ### 2022
-[GDGAlgiers CTF 2022](#gdgalgiers-ctf-2022)
 
 <details id="gdgalgiers-ctf-2022">
 <summary>GDGAlgiers CTF 2022</summary>
