@@ -308,7 +308,7 @@
 
 | Name | File Type | Bug | Technique | Note |
 | :---: | :---: | :---: | :---: | :---: |
-| [Mmap Note - Unintended](2022/SVATTT-2022/Mmap-Note/) | c (64 bit) | `Buffer Overflow` |  | Take advantage of munmap to remove read only section and attack exit hook to get shell |
+| [Mmap Note - Unintended](2022/SVATTT-2022/Mmap-Note/) | c (64 bit) | `Buffer Overflow` |  | Updated intended solution. For unintended solution, take advantage of munmap to remove read only section and attack exit hook to get shell |
 
 </p>
 </details>
