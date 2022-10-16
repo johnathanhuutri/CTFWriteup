@@ -302,6 +302,17 @@
 
 ### 2022
 
+<details id="svattt-2022">
+<summary>SVATTT 2022</summary>
+<p>
+
+| Name | File Type | Bug | Technique | Note |
+| :---: | :---: | :---: | :---: | :---: |
+| [Mmap Note - Unintended](2022/SVATTT-2022/Mmap-Note/) | c (64 bit) | `Buffer Overflow` |  | Take advantage of munmap to remove read only section and attack exit hook to get shell |
+
+</p>
+</details>
+
 <details id="gdgalgiers-ctf-2022">
 <summary>GDGAlgiers CTF 2022</summary>
 <p>
