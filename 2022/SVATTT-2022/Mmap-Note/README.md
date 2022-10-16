@@ -6,6 +6,14 @@ You can download challenge file here: [mmapnote.zip](mmapnote.zip)
 
 Download, extract and use `pwninit` to patch the libc to binary, then we can get started!
 
+```diff
+! Updated intended solution! The solve script is the file solve_1_fix.py with some updates from solve_1.py.
+
+The problem is because the mmaped address of 0x2000-byte note on server is before ld address, not libc.
+
+To create an mmaped address of 0x2000-byte note which before libc, we will mmap 2 more 0x2000-byte note first so that the address range won't fit for the third mmap with size 0x2000. Hence, we get the mmaped address before libc with the third note.
+```
+
 # 1. Find bug
 
 First, let's check for all the basic information:
