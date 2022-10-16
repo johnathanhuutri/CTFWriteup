@@ -17,6 +17,7 @@ The solve script is the file [solve_1_fix.py](solve_1_fix.py) with some updates 
 
 To create an mmaped address of 0x2000-byte note which before libc, we will mmap 2 more 0x2000-byte note first so that the address range won't fit for the third mmap with size 0x2000. Hence, we get the mmaped address before libc with the third note.
 </p>
+</details>
 
 # 1. Find bug
 
