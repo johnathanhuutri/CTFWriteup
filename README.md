@@ -308,7 +308,9 @@
 
 | Name | File Type | Bug | Technique | Note |
 | :---: | :---: | :---: | :---: | :---: |
+| [Service0x2 [Revenge]](2022/SVATTT-2022/Service0x2-Revenge/) | c (64 bit) | `Buffer Overflow` |  |  |
 | [Mmap Note - Unintended](2022/SVATTT-2022/Mmap-Note/) | c (64 bit) | `Buffer Overflow` |  | Updated intended solution. For unintended solution, take advantage of munmap to remove read only section and attack exit hook to get shell |
+| [Convert](2022/SVATTT-2022/Convert/) | c (64 bit) | `Buffer Overflow` |  |  |
 
 </p>
 </details>
