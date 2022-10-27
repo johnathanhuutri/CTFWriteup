@@ -37,7 +37,7 @@ The program then sets to the variable `p` which has the following structure:
 
 ![MyStruct.png](images/MyStruct.png)
 
-Then it execute check_data() with that variable `p`. In this function, it will check if the name with some strings and jump to the corresponding function:
+Then it execute check_data() with that variable `p`. In this function, it will check if the name with some strings are equal and jump to the corresponding function:
 
 ![check_data.png](images/check_data.png)
 
