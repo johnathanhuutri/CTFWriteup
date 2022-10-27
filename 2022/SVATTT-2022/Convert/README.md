@@ -37,7 +37,7 @@ The program then sets to the variable `p` which has the following structure:
 
 ![MyStruct.png](images/MyStruct.png)
 
-Then it execute check_data() with that variable `p`. In this function, it will check if the name with some strings are equal and jump to the corresponding function:
+Then it executes check_data() with that variable `p`. In this function, it will check if the name with some strings are equal and jump to the corresponding function:
 
 ![check_data.png](images/check_data.png)
 
@@ -134,7 +134,7 @@ The idea is to change that pointer back to the global list and set the count to 
 
 ![check_var_s.png](images/check_var_s.png)
 
-The number `0x3232323232323232` highlighted with yellow is the pointer `struct_2` and the number `0x90` highlighted with yellow is the var `count`. The address `0x0000555555555a72` highlighted with green is the saved rip. If we overwrite the `struct_2` to global list and `count` to 0x60, we can make the program write again those chunk 0x30, 0x31 and 0x32 at the position as the blue note point to.
+The number `0x3232323232323232` highlighted in yellow is the pointer `struct_2` and the number `0x90` highlighted in yellow is the var `count`. The address `0x0000555555555a72` highlighted in green is the saved rip. If we overwrite the `struct_2` to global list and `count` to 0x60, we can make the program write again those chunk 0x30, 0x31 and 0x32 at the position as the blue note point to.
 
 We can also see that our buffer of payload
 
@@ -184,7 +184,7 @@ Analyze stack to have a clear view:
 
 ![check_stack_of_first_stage.png](images/check_stack_of_first_stage.png)
 
-The address highlighted with green is saved rip and the one highlighted with pink is address of main(). So it will print the address of puts out and execute main again. Let's get the libc address and find the base address of libc:
+The address highlighted in green is saved rip and the one highlighted in pink is address of main(). So it will print the address of puts out and execute main again. Let's get the libc address and find the base address of libc:
 
 ```python
 p.recvline()
