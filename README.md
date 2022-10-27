@@ -341,13 +341,13 @@
 </details>
 
 <details id="ascis-warmup-2022">
-<summary>ASCIS WarmUp - 2022</summary>
+<summary>SVATTT WarmUp - 2022</summary>
 <p>
 
 | Name | File Type | Bug | Technique | Note |
 | :---: | :---: | :---: | :---: | :---: |
-| [DOGE [Forensics]](2022/ASCIS-WarmUp-2022/DOGE) |  |  |  |  |
-| [Simple Forensics [Forensics]](2022/ASCIS-WarmUp-2022/Simple-Forensics) |  |  |  |  |
+| [DOGE [Forensics]](2022/SVATTT-WarmUp-2022/DOGE) |  |  |  |  |
+| [Simple Forensics [Forensics]](2022/SVATTT-WarmUp-2022/Simple-Forensics) |  |  |  |  |
 
 </p>
 </details>
