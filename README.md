@@ -590,19 +590,6 @@
 </p>
 </details>
 
-<details id="wannagame-2021">
-<summary>WannaGame 2021</summary>
-<p>
-
-| Name | Type | File Type | Technique |
-| :---: | :---: | :---: | :---: |
-| [Letwarnup](2021/WannaGame-2021/letwarnup) | pwn | c (64 bit) | `Format String` `Overwrite GOT` |
-| [Feedback](2021/WannaGame-2021/feedback) | pwn | c (64 bit) | `Least Significant Byte` |
-| [note](2021/WannaGame-2021/note) | pwn | c (64 bit) | `Heap Attack` `Unsorted Bin Attack` |
-
-</p>
-</details>
-
 <details id="kcsc-entrance-exam">
 <summary>KCSC - Entrance exam</summary>
 <p>
@@ -644,7 +631,20 @@
 </p>
 </details>
 
+### 2021
 
+<details id="wannagame-2021">
+<summary>WannaGame 2021</summary>
+<p>
+
+| Name | Type | File Type | Technique |
+| :---: | :---: | :---: | :---: |
+| [Letwarnup](2021/WannaGame-2021/letwarnup) | pwn | c (64 bit) | `Format String` `Overwrite GOT` |
+| [Feedback](2021/WannaGame-2021/feedback) | pwn | c (64 bit) | `Least Significant Byte` |
+| [note](2021/WannaGame-2021/note) | pwn | c (64 bit) | `Heap Attack` `Unsorted Bin Attack` |
+
+</p>
+</details>
 
 ### 2020
 
