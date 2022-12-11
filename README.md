@@ -305,6 +305,19 @@
 
 ### 2022
 
+<details id="wannagame-2022">
+<summary>WannaGame 2022</summary>
+<p>
+
+| Name | Type | File Type | Technique |
+| :---: | :---: | :---: | :---: |
+| [warmup](2022/WannaGame-2022/warmup) | pwn | C (64 bit) |  |
+| [baby_calc](2022/WannaGame-2022/baby_calc) | pwn | C (64 bit) | `Integer Overflow` `Heap Overflow` |
+| [base64-convert](2022/WannaGame-2022/base64-convert) | pwn | Java + C (64 bit) | `Format String` |
+
+</p>
+</details>
+
 <details id="svattt-2022">
 <summary>SVATTT 2022</summary>
 <p>
