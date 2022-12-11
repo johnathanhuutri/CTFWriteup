@@ -79,6 +79,7 @@
 
 | CTF Name | Challenge | Other bug/technique |
 | :---: | :---: | :---: |
+| [WannaGame 2022](#wannagame-2022) | base64-convert |  |
 | [ImaginaryCTF 2022](#imaginaryctf-2022) | rope |  |
 | [ImaginaryCTF 2022](#imaginaryctf-2022) | Format String Foolery |  |
 | [ImaginaryCTF 2022](#imaginaryctf-2022) | Format String Fun |  |
@@ -147,6 +148,7 @@
 
 | CTF Name | Challenge | Other bug/technique |
 | :---: | :---: | :---: |
+| [WannaGame 2022](#wannagame-2022) | warmup |  |
 | [KCSC - Entrance exam](#kcsc-entrance-exam) | ArrayUnderFl0w |  |
 
 </p>
@@ -197,6 +199,7 @@
 
 | CTF Name | Challenge | Other bug/technique |
 | :---: | :---: | :---: |
+| [WannaGame 2022](#wannagame-2022) | baby_calc | `Integer Overflow` |
 | [KCSC CTF 2022](#kcsc-ctf-2022) | babyheap | `Use After Free` `Heap Overflow` |
 | [MOCSCTF 2022](#mocsctf-2022) | C@ge |  |
 
@@ -301,6 +304,24 @@
 </p>
 </details>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # CTF events
 
 ### 2022
@@ -311,7 +332,7 @@
 
 | Name | Type | File Type | Technique |
 | :---: | :---: | :---: | :---: |
-| [warmup](2022/WannaGame-2022/warmup) | pwn | C (64 bit) |  |
+| [warmup](2022/WannaGame-2022/warmup) | pwn | C (64 bit) | `Out-of-bound` |
 | [baby_calc](2022/WannaGame-2022/baby_calc) | pwn | C (64 bit) | `Integer Overflow` `Heap Overflow` |
 | [base64-convert](2022/WannaGame-2022/base64-convert) | pwn | Java + C (64 bit) | `Format String` |
 
@@ -394,7 +415,7 @@
 | Name | File Type | Bug | Technique | Note |
 | :---: | :---: | :---: | :---: | :---: |
 | [Secret Machine](2022/KMACTF-III/SecretMachine) | c (64 bit) |  |  |  |
-| [Game of KMA](2022/KMACTF-III/GameofKMA) | c (64 bit) | `Out-Of-Bound` |  |  |
+| [Game of KMA](2022/KMACTF-III/GameofKMA) | c (64 bit) | `Out-of-bound` |  |  |
 
 
 </p>
@@ -437,7 +458,7 @@
 | :---: | :---: | :---: | :---: | :---: |
 | [Private Bank](2022/vsCTF-2022/PrivateBank) | c (64 bit) |  |  |  |
 | [ForNBack](2022/vsCTF-2022/ForNBack) | c (64 bit) | `Use After Free` | `Tcache Attack` |  |
-| [Private Bank](2022/vsCTF-2022/EzOrange) | c (64 bit) | `Out-Of-Bound` | `Tcache Attack` |  |
+| [Private Bank](2022/vsCTF-2022/EzOrange) | c (64 bit) | `Out-of-bound` | `Tcache Attack` |  |
 
 
 </p>
