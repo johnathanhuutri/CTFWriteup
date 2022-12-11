@@ -88,7 +88,7 @@
 | [KCSC CTF 2022](#kcsc-ctf-2022) | pwnMe | `Ret2libc` |
 | [Pragyan CTF 2022](#pragyan-ctf-2022) | TBBT |  |
 | [Pragyan CTF 2022](#pragyan-ctf-2022) | Portal |  |
-| [Wanna Game 2022](#wanna-game-2022) | Letwarnup |  |
+| [WannaGame 2021](#wannagame-2021) | Letwarnup |  |
 | [KCSC - Entrance exam](#kcsc-entrance-exam) | Chall |  |
 | [pwn.tn](#pwn.tn) | f_one |  |
 
@@ -135,7 +135,7 @@
 
 | CTF Name | Challenge | Other bug/technique |
 | :---: | :---: | :---: |
-| [Wanna Game 2022](#wanna-game-2022) | Feedback |  |
+| [WannaGame 2021](#wannagame-2021) | Feedback |  |
 | [ISITDTU 2019](#isitdtu-2019) | tokenizer |  |
 
 </p>
@@ -214,7 +214,7 @@
 | [WhiteHat Play 11](#whitehat-play-11) | pwn08-Ruby | `Integer Overflow` `tcache_perthread_struct attack` |
 | [Pragyan CTF 2022](#pragyan-ctf-2022) | Database | `Heap Overflow` |
 | [MOCSCTF 2022](#mocsctf-2022) | orange | `House of Orange` |
-| [Wanna Game 2022](#wanna-game-2022) | note | `Use After Free` |
+| [WannaGame 2021](#wannagame-2021) | note | `Use After Free` |
 | [ISITDTU 2019](#isitdtu-2019) | iz_heap_lv1 |  |
 | [DefCamp CTF 21-22 Online](#defcamp-ctf-21-22-online) | cache | `Use After Free` `Double Free` |
 
@@ -577,15 +577,15 @@
 </p>
 </details>
 
-<details id="wanna-game-2022">
-<summary>Wanna Game 2022</summary>
+<details id="wannagame-2021">
+<summary>WannaGame 2021</summary>
 <p>
 
 | Name | Type | File Type | Technique |
 | :---: | :---: | :---: | :---: |
-| [Letwarnup](2022/wannaGame/letwarnup) | pwn | c (64 bit) | `Format String` `Overwrite GOT` |
-| [Feedback](2022/wannaGame/feedback) | pwn | c (64 bit) | `Least Significant Byte` |
-| [note](2022/wannaGame/note) | pwn | c (64 bit) | `Heap Attack` `Unsorted Bin Attack` |
+| [Letwarnup](2021/WannaGame-2021/letwarnup) | pwn | c (64 bit) | `Format String` `Overwrite GOT` |
+| [Feedback](2021/WannaGame-2021/feedback) | pwn | c (64 bit) | `Least Significant Byte` |
+| [note](2021/WannaGame-2021/note) | pwn | c (64 bit) | `Heap Attack` `Unsorted Bin Attack` |
 
 </p>
 </details>
