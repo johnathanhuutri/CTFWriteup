@@ -326,6 +326,18 @@
 
 ### 2022
 
+<details id="isitdtu-final-2022">
+<summary>ISITDTU Final 2022</summary>
+<p>
+
+| Name | Type | File Type | Technique |
+| :---: | :---: | :---: | :---: |
+| [EzMisc](2022/ISITDTU-Final-2022/EzMisc/) | pwn | C (64 bit) | `Integer Overflow` `idiv` |
+| [EzPwn](2022/ISITDTU-Final-2022/EzPwn/) | pwn | C (64 bit) | `Out-of-bound` |
+
+</p>
+</details>
+
 <details id="wannagame-2022">
 <summary>WannaGame 2022</summary>
 <p>
