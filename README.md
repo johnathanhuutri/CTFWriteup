@@ -40,6 +40,7 @@
 
 | CTF Name | Challenge | Other bug/technique |
 | :---: | :---: | :---: |
+| [TetCTF 2023](#tetctf-2023) | pwn01 | `Ret2Libc` |
 | [SVATTT 2022](#svattt-2022) | Service0x2 [Revenge] | `Ret2Libc` |
 | [SVATTT 2022](#svattt-2022) | Mmap Note |  |
 | [SVATTT 2022](#svattt-2022) | Convert | `Ret2Libc` |
@@ -323,6 +324,20 @@
 
 
 # CTF events
+
+### 2023
+
+<details id="tetctf-2023">
+<summary>TetCTF 2023</summary>
+<p>
+
+| Name | Type | File Type | Bug | Technique |
+| :---: | :---: | :---: | :---: |
+| [pwn01](2023/TetCTF/pwn01/) | pwn01 | C (64 bit) | `Buffer Overflow` | `Ret2Libc` |
+
+</p>
+</details>
+
 
 ### 2022
 
