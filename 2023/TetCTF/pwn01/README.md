@@ -361,6 +361,6 @@ p.sendline('-1'.encode())
 
 # 3. Get flag
 
-![get-flag.png](get-flag.png)
+![get-flag.png](images/get-flag.png)
 
 Flag is `TetCTF{w4rm_uP_ch4lL3ng3__g0Od_g4m3!}`
