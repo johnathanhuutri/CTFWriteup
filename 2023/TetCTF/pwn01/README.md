@@ -179,10 +179,6 @@ p.interactive()
 
 So if we get the file, how we can use it? We will create a function which takes 3 parameters, one is the byte to be seeked, one is the data and one is the offset (the length from input buffer to the byte we need to recover):
 
-<details>
-	<summary>Generate step with specific byte</summary>
-<p>
-
 ```python
 def findbyte(x, data, length):
 	step = []
@@ -198,9 +194,6 @@ def findbyte(x, data, length):
 			step.append(length)
 	return step
 ```
-
-</p>
-</details>
 
 # 2. Exploit
 
