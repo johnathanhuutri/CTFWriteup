@@ -332,7 +332,7 @@
 <p>
 
 | Name | Type | File Type | Bug | Technique |
-| :---: | :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: | :---: |
 | [pwn01](2023/TetCTF/pwn01/) | pwn01 | C (64 bit) | `Buffer Overflow` | `Ret2Libc` |
 
 </p>
