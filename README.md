@@ -330,6 +330,19 @@
 
 ### 2023
 
+<details id="kcsc-ctf-2023">
+<summary>KCSC CTF 2023</summary>
+<p>
+
+| Name  | File Type | Bug | Technique | Note |
+| :---: | :---: | :---: | :---: | :---: |
+| [[PWN] ret2libc](2023/KCSCCTF/ret2libc/) | C (64 bit) | `Buffer Overflow` | `Ret2Libc` |  |
+| [[PWN] racecar](2023/KCSCCTF/racecar/) | C (64 bit) | `Buffer Overflow` | `Ret2Win` |  |
+| [[PWN] pwncry](2023/KCSCCTF/pwncry/) | C (64 bit) | `Buffer Overflow` | `ROPchain` |  |
+
+</p>
+</details>
+
 <details id="ångstromCTF-2023">
 <summary>ångstromCTF 2023</summary>
 <p>
