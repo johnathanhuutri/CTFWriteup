@@ -336,9 +336,9 @@
 
 | Name  | File Type | Bug | Technique | Note |
 | :---: | :---: | :---: | :---: | :---: |
-| [[PWN] ret2libc](2023/KCSCCTF/ret2libc/) | C (64 bit) | `Buffer Overflow` | `Ret2Libc` |  |
-| [[PWN] racecar](2023/KCSCCTF/racecar/) | C (64 bit) | `Buffer Overflow` | `Ret2Win` |  |
-| [[PWN] pwncry](2023/KCSCCTF/pwncry/) | C (64 bit) | `Buffer Overflow` | `ROPchain` |  |
+| [[PWN] ret2libc](2023/KCSCCTF/ret2libc.zip) | C (64 bit) | `Buffer Overflow` | `Ret2Libc` |  |
+| [[PWN] racecar](2023/KCSCCTF/racecar.zip) | C (64 bit) | `Buffer Overflow` | `Ret2Win` |  |
+| [[PWN] pwncry](2023/KCSCCTF/pwncry.zip) | C (64 bit) | `Buffer Overflow` | `ROPchain` |  |
 
 </p>
 </details>
