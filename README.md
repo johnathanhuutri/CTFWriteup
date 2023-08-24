@@ -183,20 +183,6 @@
 </p>
 </details>
 
-<details id="other">
-<summary>Other</summary>
-<p>
-
-| CTF Name | Challenge | Other bug/technique |
-| :---: | :---: | :---: |
-| [LITCTF 2022](#litctf-2022) | IntArray |  |
-| [KCSC CTF 2022](#kcsc-ctf-2022) | guess2pwn |  |
-| [KCSC - Entrance exam](#kcsc-entrance-exam) | guessMe | `Specific Seed Rand` |
-| [pwnable.tw](#pwnable.tw) | calc |  |
-
-</p>
-</details>
-
 <details id="heap-overflow">
 <summary>Heap Overflow</summary>
 <p>
@@ -304,6 +290,20 @@
 | [CakeCTF 2022](#cakectf-2022) | welkerme | `Shellcode` |
 | [DownUnderCTF - 2022](#downunderctf-2022) | just-in-kernel | `Shellcode` |
 
+</p>
+</details>
+
+<details id="other">
+<summary>Other</summary>
+<p>
+
+| CTF Name | Challenge | Other bug/technique |
+| :---: | :---: | :---: |
+| [BKCTF 2023](#bkctf-2023) | babyservice |  |
+| [LITCTF 2022](#litctf-2022) | IntArray |  |
+| [KCSC CTF 2022](#kcsc-ctf-2022) | guess2pwn |  |
+| [KCSC - Entrance exam](#kcsc-entrance-exam) | guessMe | `Specific Seed Rand` |
+| [pwnable.tw](#pwnable.tw) | calc |  |
 
 </p>
 </details>
@@ -329,6 +329,17 @@
 # CTF events
 
 ### 2023
+
+<details id="bkctf-2023">
+<summary>BKCTF 2023</summary>
+<p>
+
+| Name  | File Type | Bug | Technique | Note |
+| :---: | :---: | :---: | :---: | :---: |
+| [[PWN] babyservice](2023/BKCTF/babyservice) | C (64 bit) | `Buffer Overflow` | `ret2libc` |  |
+
+</p>
+</details>
 
 <details id="kcsc-ctf-2023">
 <summary>KCSC CTF 2023</summary>
