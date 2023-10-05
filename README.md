@@ -7,6 +7,17 @@
 
 # Categories
 
+<details id="cmd-injection">
+<summary>Cmd Injection</summary>
+<p>
+
+| CTF Name | Challenge | Other bug |
+| :---: | :---: | :---: |
+| [KMACTF III - 2023](#kmactf-iii-2023) | Welcome to KCSC |  |
+
+</p>
+</details>
+
 <details id="shellcode">
 <summary>Shellcode</summary>
 <p>
@@ -26,9 +37,10 @@
 
 | CTF Name | Challenge | Other bug/technique |
 | :---: | :---: | :---: |
-| [HCMUS CTF 2022](#hcmus-ctf-2022) | calert | `Integer Overflow` `Ret2libc` |
-| [zer0pts CTF 2022](#zer0pts-ctf-2022) | Modern Rome |  |
-| [zer0pts CTF 2022](#zer0pts-ctf-2022) | accountant | `ret2libc` |
+| [KMACTF III - 2023](#kmactf-iii-2023) | Password Manager | `Buffer Overflow` |
+| [HCMUS CTF - 2022](#hcmus-ctf-2022) | calert | `Integer Overflow` `Ret2libc` |
+| [zer0pts CTF - 2022](#zer0pts-ctf-2022) | Modern Rome |  |
+| [zer0pts CTF - 2022](#zer0pts-ctf-2022) | accountant | `ret2libc` |
 | [KCSC - Entrance exam](#kcsc-entrance-exam) | get OVER InT |  |
 
 </p>
@@ -81,6 +93,7 @@
 
 | CTF Name | Challenge | Other bug/technique |
 | :---: | :---: | :---: |
+| [KMACTF III - 2023](#kmactf-iii-2023) | Welcome to KCSC V2 | `Buffer Overflow` |
 | [ångstromCTF 2023](#ångstromCTF-2023) | slack | `ROPchain` |
 | [ångstromCTF 2023](#ångstromCTF-2023) | noleek | `one_gadget` |
 | [WannaGame 2022](#wannagame-2022) | base64-convert |  |
@@ -152,6 +165,7 @@
 
 | CTF Name | Challenge | Other bug/technique |
 | :---: | :---: | :---: |
+| [KMACTF III - 2023](#kmactf-iii-2023) | Tiny Webserver | |
 | [WannaGame 2022](#wannagame-2022) | warmup |  |
 | [KCSC - Entrance exam](#kcsc-entrance-exam) | ArrayUnderFl0w |  |
 
@@ -329,6 +343,20 @@
 # CTF events
 
 ### 2023
+
+<details id="kmactf-iii-2023">
+<summary>KMACTF III (Vietnamese)</summary>
+<p>
+
+| Name  | File Type | Bug | Technique | Note |
+| :---: | :---: | :---: | :---: | :---: |
+| [[PWN x WEB] Welcome to KCSC](https://www.youtube.com/watch?v=DRsvh6k3Cu8) | C (64 bit) | `Cmd Injection` |  |  |
+| [[PWN x WEB] Welcome to KCSC V2](https://www.youtube.com/watch?v=LiTITmDFzCw) | C (64 bit) | `Format String` |  |  |
+| [[PWN] Password Manager](https://www.youtube.com/watch?v=3e1xazV3cUQ) | C (64 bit) | `Integer Overflow` | `ret2libc` |  |
+| [[PWN] Tiny Webserver](https://www.youtube.com/watch?v=o1qpQygXNX4) | C (64 bit) | `Out-of-bound` |  | Because this is one shot exploit, we cannot create shell. Instead, we need to find a way to RCE! |
+
+</p>
+</details>
 
 <details id="bkctf-2023">
 <summary>BKCTF 2023</summary>
