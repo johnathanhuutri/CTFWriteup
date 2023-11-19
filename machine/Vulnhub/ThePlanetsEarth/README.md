@@ -32,7 +32,7 @@ There are only 2 ips! In my case, the ip of machine is `192.168.162.182`. So we 
 
 Now, the first thing we need to do is scanning for all open ports:
 
-```cmd
+```
 ┌──(user㉿JohnathanHuuTri)-[~/Vulnhub/Earth]
 └─$ nmap -sCV -T5 -p- 192.168.162.182
 Starting Nmap 7.94SVN ( https://nmap.org ) at 2023-11-19 15:08 +07
