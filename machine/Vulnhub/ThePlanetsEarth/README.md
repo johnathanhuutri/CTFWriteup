@@ -83,13 +83,13 @@ Hmm, just a static page, nothing interesting! Let's look back the nmap result. O
 ...
 ```
 
-Those are 2 hostnames that we can use. Let's add them to the host file. Because I'm using wsl2, we will need to add to both host file of window and host file of wsl2. Host file of windows located at
+Those are 2 hostnames that we can use. Let's add them to the host file. Because I'm using wsl2, we will need to add to both host file of window and host file of wsl2. Host file of windows is located at
 
 ```
-C:\Windows\System32\drivers\etc
+C:\Windows\System32\drivers\etc\hosts
 ```
 
-To edit the host file, move that file to desktop and open with sublime text, then add this line to the last line of host file:
+To edit the host file, move that file to desktop and open with any text editor you want, then add this line to the last line of host file:
 
 ```
 192.168.162.182 earth.local terratest.earth.local
@@ -140,7 +140,6 @@ We will add that line to the end of the file as we did with the host file of win
 # generateHosts = false
 127.0.0.1       localhost
 127.0.1.1       JohnathanHuuTri.        JohnathanHuuTri
-192.168.162.182 earth.local terratest.earth.local
 
 # The following lines are desirable for IPv6 capable hosts
 ::1     ip6-localhost ip6-loopback
@@ -148,6 +147,7 @@ fe00::0 ip6-localnet
 ff00::0 ip6-mcastprefix
 ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
+192.168.162.182 earth.local terratest.earth.local
 ```
 
 > Remember to edit with sudo permission
@@ -166,7 +166,7 @@ Nice! We notice the last line:
 Disallow: /testingnotes.*
 ```
 
-Seems like that is a file rather than a directory, let's try with different extension and after a few attempts, we know the extension for that file is `.txt`:
+Seems like that is a file rather than a directory. Let's try with different extensions and after a few attempts, we know the extension for that file is `.txt`:
 
 ![](images/testingnotes.png)
 
@@ -174,13 +174,13 @@ Reading the note, we know the algorithim is just a simple XOR! The file `testdat
 
 ![](images/testdata.png)
 
-Seems like it's the data use as message! We also notice that `terra` is username for admin portal, so there is might be admin page? Well yes there is but it's in hostname `earth.local`:
+Seems like it's the data used as message! We also notice that `terra` is username for admin portal, so there is might be admin page? Well yes there is but it's in hostname `earth.local`:
 
 ![](images/admin-portal.png)
 
 You can try to access with admin path or you can use gobuster to bruteforce:
 
-```
+```cmd
 ┌──(user㉿JohnathanHuuTri)-[~/Vulnhub/Earth]
 └─$ gobuster dir -w ../../Wordlist/SecLists/Discovery/Web-Content/common.txt -u http://earth.local
 ===============================================================
