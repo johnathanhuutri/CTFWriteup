@@ -123,7 +123,7 @@ $ aws --profile cloudfoxable iam get-policy-version --policy-arn arn:aws:iam::21
 }
 ```
 
-Read the `Resource` tag, we know that flag is at `/cloudfoxable/flag/its-a-secret` and allowed action is **`ssm:GetParameter`**, which means we can read the parameter `its-a-secret` with this user:
+Read the `Resource` tag, we know that flag is at `/cloudfoxable/flag/its-a-secret` and allowed action is **`ssm:GetParameter`**, which means we can read the parameter `its-a-secret` with **`cloudfoxable`** user:
 
 ```
 aws --profile cloudfoxable ssm get-parameter --name /cloudfoxable/flag/its-a-secret
