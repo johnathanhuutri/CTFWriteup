@@ -32,8 +32,6 @@ We can verify new profile to make sure it works:
 
 ![](images/its-another-secret-verify-assume-role-config.png)
 
-Remember that it's just role, not user so we cannot list any policy from that. Now we can start hacking!
-
 ## Using cloudfox
 
 Description wants us to read a secret called `its-another-secret` so we will list all secrets first:
@@ -68,7 +66,7 @@ But if we check with role `Ertz`, we got something new:
 
 ![](images/its-another-secret-cloudfox-ertz-permission.png)
 
-Ah ha this role allow us to get param `its-another-secret` of AWS System Manaer (SSM) so let's get that flag with profile **`ertz`**:
+Ah ha this role allow us to get param `its-another-secret` of AWS System Manager (SSM) so let's get that flag with profile **`ertz`**:
 
 ```
 aws --profile ertz --region us-west-2 ssm get-parameter --with-decryption --name /cloudfoxable/flag/its-another-secret
@@ -80,7 +78,7 @@ Bingo! We got the flag.
 
 ## Using aws-cli
 
-Again, because aws-cli doesn't have command `secret` as cloudfox does so the basic thing we need to do is to list all policy that profile `ertz` has:
+Again, because aws-cli doesn't have command `secret` as cloudfox does so the basic thing we need to do is to list all policy that role `Ertz` has with profile `cloudfoxable` (`cloudfoxable` has **SecurityAudit** so it can execute **`iam`** command):
 
 ```
 $ aws --profile cloudfoxable iam list-attached-role-policies --role-name Ertz
@@ -94,7 +92,7 @@ $ aws --profile cloudfoxable iam list-attached-role-policies --role-name Ertz
 }
 ```
 
-Wow! We got 1 new policy. Let's check what resource this policy interact with. First we need to get version id of this policy:
+Wow! We got 1 new policy. Let's check what resource this policy interact with. First we need to get version id of this policy with **`iam get-policy`**:
 
 ```
 $ aws --profile cloudfoxable iam get-policy --policy-arn arn:aws:iam::211125736697:policy/its-another-secret-policy
@@ -116,7 +114,7 @@ $ aws --profile cloudfoxable iam get-policy --policy-arn arn:aws:iam::2111257366
 }
 ```
 
-So version id is **`v1`**, let's get the resource:
+So version id is **`v1`**, let's get the resource with **`iam get-policy-version`**:
 
 ```
 $ aws --profile cloudfoxable iam get-policy-version --policy-arn arn:aws:iam::211125736697:policy/its-another-secret-policy --version-id v1
