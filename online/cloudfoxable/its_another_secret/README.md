@@ -1,4 +1,4 @@
-# CloudFoxable - It's a secret
+# CloudFoxable - It's another secret
 
 Challenge link: https://cloudfoxable.bishopfox.com/challenges#It's%20another%20secret-8
 
