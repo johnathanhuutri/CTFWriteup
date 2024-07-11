@@ -35,7 +35,7 @@ aws --profile arnold secretsmanager get-secret-value --secret-id arn:aws:secrets
 
 ## Using aws-cli
 
-This challenge doesn't give us IAM Role but something seems like a resource, our job is to find out which role interact with this resource. First, we need to list all rule that this account has:
+This challenge doesn't give us IAM Role but something seems like a resource, our job is to find out which role interact with this resource. First, we need to list all role that this account has:
 
 ```
 aws --profile cloudfoxable iam list-roles
