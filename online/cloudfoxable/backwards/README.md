@@ -78,10 +78,9 @@ do
         echo "    - Arn: $policy_arn"
         echo "    - Version: $policy_version"
         echo "    - Statement: "
-        echo $policy_statement
-        echo -------------------------
+        echo "$policy_statement"
     done
-    sleep 1
+    echo -------------------------
 done
 ```
 
