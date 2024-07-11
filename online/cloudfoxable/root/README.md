@@ -13,7 +13,7 @@ role_arn = arn:aws:iam::ACCOUNTID:role/Kent
 source_profile = cloudfoxable
 ```
 
-This challenge is all about assume role:
+This challenge is all about assuming role:
 
 - cloudfox
 

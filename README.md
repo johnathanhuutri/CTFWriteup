@@ -832,3 +832,15 @@
 
 </p>
 </details>
+
+<details id="cloudfoxable">
+<summary>CloudFoxable</summary>
+<p>
+
+| Name | File Type | Bug | Technique | Note |
+| :---: | :---: | :---: | :---: | :---: |
+| [It's a secret](online/cloudfoxable/its_a_secret) |  |  |  |  |
+| [It's another secret](online/cloudfoxable/its_another_secret) |  |  |  |  |
+
+</p>
+</details>
